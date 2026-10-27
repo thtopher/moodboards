@@ -294,3 +294,13 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 | w-press-vanuatu | wildcard | 16 | 28 | sodium-orange | L→R | 4 (17.36) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Printing_the_Paper.webm (at 0:12) |
 | w-shrimp-spew | wildcard | 16 | 11 | wet-black | L→R | 2 (3.6) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-explorations-19biolum-logs-jun16-media-shrimp-spew?start=0 |
 | w-squid | wildcard | 16 | 22 | wet-black | still | 1 (1.35) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-edu-themes-bioluminescence-media-multimedia-giant-squid?start=0 |
+
+## Split-screen cuts (2026-10-27)
+- `split_30s_a.mp4`: 30 s, vertical 50/50 (952 | 16 px gutter | 952).
+- `split_30s_b.mp4`: 30 s, Chicago at 2/3 (1264) with a 1/3 counter-world strip (640).
+- Chicago runs the P1 to P5 ramp and freezes on the bus shelter. The counter-world has 8 long holds that never cut to black.
+- Rain, hiss and roar, plus de-narrated counter ambience. No music. -18 LUFS. See `split_30s_shotlist.md`.
+- `music_split_v1.mp4`: 59.5 s, 50/50 layout, cut to an original Lyria 3.5 instrumental at 92.3 BPM.
+  - The Chicago panel cuts on bars, beats and half-beats by section energy. The counter-world cuts on downbeats only.
+  - Spearman ρ between clip pace and music energy: 0.73 for Chicago, 0.90 for the counter-world (per frame, 0.92 and 0.89).
+  - -15 LUFS. See `music_split_v1_shotlist.md`, `music_split_v1_energy_chart.png` and `music/LICENSE_music.md`.
