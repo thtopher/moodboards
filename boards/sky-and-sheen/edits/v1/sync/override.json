@@ -1,0 +1,40 @@
+{
+ "_review": {
+  "138.6-144.1": "Beat This! doubled the pulse during a drum fill (0.3 s pulses at an unchanged ~0.62 s beat). 138.57 -> 146.01 is 3 bars of 2.48 s; the true downbeats are 138.57, 141.08 and 143.48 (snare 141.03, kick 143.13 ahead). Remove the half-bar downbeats 139.82 and 142.29.",
+  "178.8-181.5": "Drums out from 176.28 to 183.94 (no kick); the trackers double the pulse and disagree from run to run (178.84 in the WAV, 179.47 in the AAC). Reviewed grid: 3 even bars of 2.551 s, downbeats 176.28, 178.84, 181.39, 183.94. Shot 59 holds across all three bars, so no cut depends on the inner downbeats.",
+  "203.2-208.8": "Drums drop out after the strong kick at 203.77 s and the pulse doubles. Reviewed grid: 2 bars, downbeats 203.80, 206.31 (the drums-out moment), 208.82.",
+  "131.0": "Flam on the downbeat: onsets at 131.01, 131.037 (strongest in the mix and the drum stem, kick at ~131.03) and 131.072. The source refinement picked 131.072, the render audio picked 131.037. Move the pulse to 131.037 so both agree on the real hit."
+ },
+ "bar_pulses": 4,
+ "remove": [
+  139.8172,
+  142.2916
+ ],
+ "move": [
+  {
+   "from": 131.0721,
+   "to": 131.037
+  }
+ ],
+ "regions": [
+  {
+   "from": 176.2844,
+   "to": 183.937,
+   "downbeats": [
+    176.2844,
+    178.8353,
+    181.3862,
+    183.937
+   ]
+  },
+  {
+   "from": 203.7968,
+   "to": 208.8204,
+   "downbeats": [
+    203.7968,
+    206.3111,
+    208.8204
+   ]
+  }
+ ]
+}

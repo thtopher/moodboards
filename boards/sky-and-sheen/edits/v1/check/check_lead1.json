@@ -1,0 +1,1545 @@
+{
+ "render": "/workspace/moodboard/sky-and-sheen/edits/sky_sheen_full_v1_lead1.mp4",
+ "lead": 1,
+ "raw_redetected": {
+  "downbeats": 103,
+  "irregular_bars": [
+   {
+    "i": 52,
+    "t0": 138.5651,
+    "t1": 139.8172,
+    "pulses": 4
+   },
+   {
+    "i": 53,
+    "t0": 139.8172,
+    "t1": 141.0794,
+    "pulses": 4
+   },
+   {
+    "i": 54,
+    "t0": 141.0794,
+    "t1": 142.2866,
+    "pulses": 4
+   },
+   {
+    "i": 55,
+    "t0": 142.2866,
+    "t1": 143.4789,
+    "pulses": 4
+   },
+   {
+    "i": 69,
+    "t0": 176.2844,
+    "t1": 179.4721,
+    "pulses": 5
+   },
+   {
+    "i": 70,
+    "t0": 179.4721,
+    "t1": 181.4027,
+    "pulses": 4
+   },
+   {
+    "i": 80,
+    "t0": 203.5424,
+    "t1": 204.8045,
+    "pulses": 4
+   },
+   {
+    "i": 81,
+    "t0": 204.8045,
+    "t1": 205.9769,
+    "pulses": 4
+   },
+   {
+    "i": 82,
+    "t0": 205.9769,
+    "t1": 207.2091,
+    "pulses": 4
+   },
+   {
+    "i": 83,
+    "t0": 207.2091,
+    "t1": 208.8653,
+    "pulses": 4
+   }
+  ],
+  "low_confidence": [
+   {
+    "t": 1.4617,
+    "conf": 0.49
+   },
+   {
+    "t": 120.9751,
+    "conf": 0.371
+   },
+   {
+    "t": 123.5193,
+    "conf": 0.488
+   },
+   {
+    "t": 126.0485,
+    "conf": 0.215
+   },
+   {
+    "t": 128.5528,
+    "conf": 0.419
+   },
+   {
+    "t": 139.8172,
+    "conf": 0.346
+   },
+   {
+    "t": 141.0794,
+    "conf": 0.495
+   },
+   {
+    "t": 142.2866,
+    "conf": 0.245
+   },
+   {
+    "t": 181.4027,
+    "conf": 0.476
+   },
+   {
+    "t": 201.4172,
+    "conf": 0.415
+   },
+   {
+    "t": 203.5424,
+    "conf": 0.076
+   },
+   {
+    "t": 204.8045,
+    "conf": 0.0
+   },
+   {
+    "t": 207.2091,
+    "conf": 0.107
+   },
+   {
+    "t": 208.8653,
+    "conf": 0.132
+   }
+  ]
+ },
+ "redetected": {
+  "downbeats": 99,
+  "bar_pulses": 4,
+  "irregular_bars": [],
+  "low_confidence": [
+   {
+    "t": 1.4617,
+    "conf": 0.49
+   },
+   {
+    "t": 120.9751,
+    "conf": 0.371
+   },
+   {
+    "t": 123.5193,
+    "conf": 0.488
+   },
+   {
+    "t": 126.0485,
+    "conf": 0.215
+   },
+   {
+    "t": 128.5528,
+    "conf": 0.418
+   },
+   {
+    "t": 141.0794,
+    "conf": 0.495
+   },
+   {
+    "t": 178.8353,
+    "conf": 0.009
+   },
+   {
+    "t": 181.3862,
+    "conf": 0.3
+   },
+   {
+    "t": 201.4172,
+    "conf": 0.415
+   },
+   {
+    "t": 206.3111,
+    "conf": 0.279
+   },
+   {
+    "t": 208.8204,
+    "conf": 0.045
+   }
+  ]
+ },
+ "motion_spikes": {
+  "0": [],
+  "1": []
+ },
+ "cuts": [
+  {
+   "shot": 1,
+   "frame": 237,
+   "support": "raw",
+   "shown_at": 9.875,
+   "aimed_at": 9.9167,
+   "nearest_downbeat": 9.9274,
+   "offset_ms": -10.7,
+   "raw_offset_ms": -52.4,
+   "moment_ms": 10.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 2,
+   "frame": 305,
+   "support": "raw",
+   "shown_at": 12.7083,
+   "aimed_at": 12.75,
+   "nearest_downbeat": 12.756,
+   "offset_ms": -6.0,
+   "raw_offset_ms": -47.7,
+   "moment_ms": 6.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 3,
+   "frame": 438,
+   "support": "raw",
+   "shown_at": 18.25,
+   "aimed_at": 18.2917,
+   "nearest_downbeat": 18.2884,
+   "offset_ms": 3.3,
+   "raw_offset_ms": -38.4,
+   "moment_ms": 3.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 4,
+   "frame": 503,
+   "support": "raw",
+   "shown_at": 20.9583,
+   "aimed_at": 21.0,
+   "nearest_downbeat": 21.0172,
+   "offset_ms": -17.2,
+   "raw_offset_ms": -58.9,
+   "moment_ms": 17.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 5,
+   "frame": 570,
+   "support": "raw",
+   "shown_at": 23.75,
+   "aimed_at": 23.7917,
+   "nearest_downbeat": 23.8059,
+   "offset_ms": -14.2,
+   "raw_offset_ms": -55.9,
+   "moment_ms": 14.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 6,
+   "frame": 701,
+   "support": "raw",
+   "shown_at": 29.2083,
+   "aimed_at": 29.25,
+   "nearest_downbeat": 29.2385,
+   "offset_ms": 11.5,
+   "raw_offset_ms": -30.2,
+   "moment_ms": 11.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 7,
+   "frame": 764,
+   "support": "raw",
+   "shown_at": 31.8333,
+   "aimed_at": 31.875,
+   "nearest_downbeat": 31.8776,
+   "offset_ms": -2.6,
+   "raw_offset_ms": -44.3,
+   "moment_ms": 2636.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 8,
+   "frame": 831,
+   "support": "raw",
+   "shown_at": 34.625,
+   "aimed_at": 34.6667,
+   "nearest_downbeat": 34.6562,
+   "offset_ms": 10.5,
+   "raw_offset_ms": -31.2,
+   "moment_ms": 10.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "drop",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 9,
+   "frame": 895,
+   "support": "raw",
+   "shown_at": 37.2917,
+   "aimed_at": 37.3333,
+   "nearest_downbeat": 37.3351,
+   "offset_ms": -1.8,
+   "raw_offset_ms": -43.4,
+   "moment_ms": 2677.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 10,
+   "frame": 960,
+   "support": "raw",
+   "shown_at": 40.0,
+   "aimed_at": 40.0417,
+   "nearest_downbeat": 40.034,
+   "offset_ms": 7.7,
+   "raw_offset_ms": -34.0,
+   "moment_ms": 5275.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 11,
+   "frame": 1024,
+   "support": "raw",
+   "shown_at": 42.6667,
+   "aimed_at": 42.7083,
+   "nearest_downbeat": 42.7129,
+   "offset_ms": -4.6,
+   "raw_offset_ms": -46.2,
+   "moment_ms": 2608.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 12,
+   "frame": 1087,
+   "support": "raw",
+   "shown_at": 45.2917,
+   "aimed_at": 45.3333,
+   "nearest_downbeat": 45.317,
+   "offset_ms": 16.3,
+   "raw_offset_ms": -25.3,
+   "moment_ms": 16.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "break",
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 13,
+   "frame": 1151,
+   "support": "raw",
+   "shown_at": 47.9583,
+   "aimed_at": 48.0,
+   "nearest_downbeat": 47.9959,
+   "offset_ms": 4.1,
+   "raw_offset_ms": -37.6,
+   "moment_ms": 2683.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 14,
+   "frame": 1217,
+   "support": "raw",
+   "shown_at": 50.7083,
+   "aimed_at": 50.75,
+   "nearest_downbeat": 50.7297,
+   "offset_ms": 20.3,
+   "raw_offset_ms": -21.4,
+   "moment_ms": 20.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 15,
+   "frame": 1470,
+   "support": "raw",
+   "shown_at": 61.25,
+   "aimed_at": 61.2917,
+   "nearest_downbeat": 61.2807,
+   "offset_ms": 11.0,
+   "raw_offset_ms": -30.7,
+   "moment_ms": 11.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 16,
+   "frame": 1597,
+   "support": "raw",
+   "shown_at": 66.5417,
+   "aimed_at": 66.5833,
+   "nearest_downbeat": 66.6036,
+   "offset_ms": -20.3,
+   "raw_offset_ms": -61.9,
+   "moment_ms": 20.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 17,
+   "frame": 1661,
+   "support": "raw",
+   "shown_at": 69.2083,
+   "aimed_at": 69.25,
+   "nearest_downbeat": 69.2626,
+   "offset_ms": -12.6,
+   "raw_offset_ms": -54.3,
+   "moment_ms": 2631.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 18,
+   "frame": 1724,
+   "support": "raw",
+   "shown_at": 71.8333,
+   "aimed_at": 71.875,
+   "nearest_downbeat": 71.8816,
+   "offset_ms": -6.6,
+   "raw_offset_ms": -48.3,
+   "moment_ms": 6.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 19,
+   "frame": 1788,
+   "support": "raw",
+   "shown_at": 74.5,
+   "aimed_at": 74.5417,
+   "nearest_downbeat": 74.5506,
+   "offset_ms": -8.9,
+   "raw_offset_ms": -50.6,
+   "moment_ms": 2660.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 20,
+   "frame": 1851,
+   "support": "raw",
+   "shown_at": 77.125,
+   "aimed_at": 77.1667,
+   "nearest_downbeat": 77.1596,
+   "offset_ms": 7.1,
+   "raw_offset_ms": -34.6,
+   "moment_ms": 5285.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 21,
+   "frame": 1914,
+   "support": "raw",
+   "shown_at": 79.75,
+   "aimed_at": 79.7917,
+   "nearest_downbeat": 79.7787,
+   "offset_ms": 13.0,
+   "raw_offset_ms": -28.7,
+   "moment_ms": 7804.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 22,
+   "frame": 1978,
+   "support": "raw",
+   "shown_at": 82.4167,
+   "aimed_at": 82.4583,
+   "nearest_downbeat": 82.4526,
+   "offset_ms": 5.7,
+   "raw_offset_ms": -35.9,
+   "moment_ms": 5137.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 23,
+   "frame": 2040,
+   "support": "raw",
+   "shown_at": 85.0,
+   "aimed_at": 85.0417,
+   "nearest_downbeat": 85.0567,
+   "offset_ms": -15.0,
+   "raw_offset_ms": -56.7,
+   "moment_ms": 2554.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 24,
+   "frame": 2101,
+   "support": "raw",
+   "shown_at": 87.5417,
+   "aimed_at": 87.5833,
+   "nearest_downbeat": 87.5959,
+   "offset_ms": -12.6,
+   "raw_offset_ms": -54.2,
+   "moment_ms": 12.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "break",
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 25,
+   "frame": 2157,
+   "support": "raw",
+   "shown_at": 89.875,
+   "aimed_at": 89.9167,
+   "nearest_downbeat": 89.9356,
+   "offset_ms": -18.9,
+   "raw_offset_ms": -60.6,
+   "moment_ms": 2320.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 26,
+   "frame": 2224,
+   "support": "raw",
+   "shown_at": 92.6667,
+   "aimed_at": 92.7083,
+   "nearest_downbeat": 92.6993,
+   "offset_ms": 9.0,
+   "raw_offset_ms": -32.6,
+   "moment_ms": 9.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "drop",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 27,
+   "frame": 2285,
+   "support": "raw",
+   "shown_at": 95.2083,
+   "aimed_at": 95.25,
+   "nearest_downbeat": 95.2635,
+   "offset_ms": -13.5,
+   "raw_offset_ms": -55.2,
+   "moment_ms": 13.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 28,
+   "frame": 2348,
+   "support": "raw",
+   "shown_at": 97.8333,
+   "aimed_at": 97.875,
+   "nearest_downbeat": 97.8875,
+   "offset_ms": -12.5,
+   "raw_offset_ms": -54.2,
+   "moment_ms": 12.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 29,
+   "frame": 2410,
+   "support": "raw",
+   "shown_at": 100.4167,
+   "aimed_at": 100.4583,
+   "nearest_downbeat": 100.4617,
+   "offset_ms": -3.4,
+   "raw_offset_ms": -45.0,
+   "moment_ms": 3.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 30,
+   "frame": 2472,
+   "support": "raw",
+   "shown_at": 103.0,
+   "aimed_at": 103.0417,
+   "nearest_downbeat": 103.0358,
+   "offset_ms": 5.9,
+   "raw_offset_ms": -35.8,
+   "moment_ms": 2538.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 31,
+   "frame": 2533,
+   "support": "raw",
+   "shown_at": 105.5417,
+   "aimed_at": 105.5833,
+   "nearest_downbeat": 105.58,
+   "offset_ms": 3.3,
+   "raw_offset_ms": -38.3,
+   "moment_ms": 3.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 32,
+   "frame": 2596,
+   "support": "raw",
+   "shown_at": 108.1667,
+   "aimed_at": 108.2083,
+   "nearest_downbeat": 108.229,
+   "offset_ms": -20.7,
+   "raw_offset_ms": -62.3,
+   "moment_ms": 20.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "drop",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 33,
+   "frame": 2658,
+   "support": "raw",
+   "shown_at": 110.75,
+   "aimed_at": 110.7917,
+   "nearest_downbeat": 110.7782,
+   "offset_ms": 13.5,
+   "raw_offset_ms": -28.2,
+   "moment_ms": 13.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 34,
+   "frame": 2719,
+   "support": "raw",
+   "shown_at": 113.2917,
+   "aimed_at": 113.3333,
+   "nearest_downbeat": 113.3474,
+   "offset_ms": -14.1,
+   "raw_offset_ms": -55.7,
+   "moment_ms": 14.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "fill_landing",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 35,
+   "frame": 2781,
+   "support": "raw",
+   "shown_at": 115.875,
+   "aimed_at": 115.9167,
+   "nearest_downbeat": 115.9265,
+   "offset_ms": -9.8,
+   "raw_offset_ms": -51.5,
+   "moment_ms": 9.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 36,
+   "frame": 2842,
+   "support": "raw",
+   "shown_at": 118.4167,
+   "aimed_at": 118.4583,
+   "nearest_downbeat": 118.4608,
+   "offset_ms": -2.5,
+   "raw_offset_ms": -44.1,
+   "moment_ms": 2531.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 37,
+   "frame": 2902,
+   "support": "raw",
+   "shown_at": 120.9167,
+   "aimed_at": 120.9583,
+   "nearest_downbeat": 120.9751,
+   "offset_ms": -16.8,
+   "raw_offset_ms": -58.4,
+   "moment_ms": 2561.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 38,
+   "frame": 2963,
+   "support": "raw",
+   "shown_at": 123.4583,
+   "aimed_at": 123.5,
+   "nearest_downbeat": 123.5193,
+   "offset_ms": -19.3,
+   "raw_offset_ms": -61.0,
+   "moment_ms": 19.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 39,
+   "frame": 3024,
+   "support": "raw",
+   "shown_at": 126.0,
+   "aimed_at": 126.0417,
+   "nearest_downbeat": 126.0485,
+   "offset_ms": -6.8,
+   "raw_offset_ms": -48.5,
+   "moment_ms": 2522.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 40,
+   "frame": 3084,
+   "support": "raw",
+   "shown_at": 128.5,
+   "aimed_at": 128.5417,
+   "nearest_downbeat": 128.5528,
+   "offset_ms": -11.1,
+   "raw_offset_ms": -52.8,
+   "moment_ms": 5022.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 41,
+   "frame": 3144,
+   "support": "raw",
+   "shown_at": 131.0,
+   "aimed_at": 131.0417,
+   "nearest_downbeat": 131.037,
+   "offset_ms": 4.7,
+   "raw_offset_ms": -37.0,
+   "moment_ms": 7522.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 42,
+   "frame": 3206,
+   "support": "raw",
+   "shown_at": 133.5833,
+   "aimed_at": 133.625,
+   "nearest_downbeat": 133.6163,
+   "offset_ms": 8.7,
+   "raw_offset_ms": -33.0,
+   "moment_ms": 4940.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 43,
+   "frame": 3265,
+   "support": "raw",
+   "shown_at": 136.0417,
+   "aimed_at": 136.0833,
+   "nearest_downbeat": 136.0807,
+   "offset_ms": 2.6,
+   "raw_offset_ms": -39.0,
+   "moment_ms": 2481.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 44,
+   "frame": 3325,
+   "support": "raw",
+   "shown_at": 138.5417,
+   "aimed_at": 138.5833,
+   "nearest_downbeat": 138.5651,
+   "offset_ms": 18.2,
+   "raw_offset_ms": -23.4,
+   "moment_ms": 18.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 45,
+   "frame": 3385,
+   "support": "raw",
+   "shown_at": 141.0417,
+   "aimed_at": 141.0833,
+   "nearest_downbeat": 141.0794,
+   "offset_ms": 3.9,
+   "raw_offset_ms": -37.7,
+   "moment_ms": 2395.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 46,
+   "frame": 3442,
+   "support": "raw",
+   "shown_at": 143.4167,
+   "aimed_at": 143.4583,
+   "nearest_downbeat": 143.4789,
+   "offset_ms": -20.6,
+   "raw_offset_ms": -62.2,
+   "moment_ms": 20.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 47,
+   "frame": 3503,
+   "support": "raw",
+   "shown_at": 145.9583,
+   "aimed_at": 146.0,
+   "nearest_downbeat": 146.0032,
+   "offset_ms": -3.2,
+   "raw_offset_ms": -44.9,
+   "moment_ms": 3.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 48,
+   "frame": 3563,
+   "support": "raw",
+   "shown_at": 148.4583,
+   "aimed_at": 148.5,
+   "nearest_downbeat": 148.5025,
+   "offset_ms": -2.5,
+   "raw_offset_ms": -44.2,
+   "moment_ms": 2.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 49,
+   "frame": 3625,
+   "support": "raw",
+   "shown_at": 151.0417,
+   "aimed_at": 151.0833,
+   "nearest_downbeat": 151.0766,
+   "offset_ms": 6.7,
+   "raw_offset_ms": -34.9,
+   "moment_ms": 6.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 50,
+   "frame": 3686,
+   "support": "raw",
+   "shown_at": 153.5833,
+   "aimed_at": 153.625,
+   "nearest_downbeat": 153.6209,
+   "offset_ms": 4.1,
+   "raw_offset_ms": -37.6,
+   "moment_ms": 4.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "drop",
+    "vocal_in",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 51,
+   "frame": 3748,
+   "support": "raw",
+   "shown_at": 156.1667,
+   "aimed_at": 156.2083,
+   "nearest_downbeat": 156.21,
+   "offset_ms": -1.7,
+   "raw_offset_ms": -43.3,
+   "moment_ms": 2587.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 52,
+   "frame": 3809,
+   "support": "raw",
+   "shown_at": 158.7083,
+   "aimed_at": 158.75,
+   "nearest_downbeat": 158.7492,
+   "offset_ms": 0.8,
+   "raw_offset_ms": -40.9,
+   "moment_ms": 5057.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 53,
+   "frame": 3869,
+   "support": "raw",
+   "shown_at": 161.2083,
+   "aimed_at": 161.25,
+   "nearest_downbeat": 161.2635,
+   "offset_ms": -13.5,
+   "raw_offset_ms": -55.2,
+   "moment_ms": 2557.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 54,
+   "frame": 3930,
+   "support": "raw",
+   "shown_at": 163.75,
+   "aimed_at": 163.7917,
+   "nearest_downbeat": 163.8077,
+   "offset_ms": -16.0,
+   "raw_offset_ms": -57.7,
+   "moment_ms": 16.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 55,
+   "frame": 3990,
+   "support": "raw",
+   "shown_at": 166.25,
+   "aimed_at": 166.2917,
+   "nearest_downbeat": 166.307,
+   "offset_ms": -15.3,
+   "raw_offset_ms": -57.0,
+   "moment_ms": 15.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 56,
+   "frame": 4051,
+   "support": "raw",
+   "shown_at": 168.7917,
+   "aimed_at": 168.8333,
+   "nearest_downbeat": 168.8313,
+   "offset_ms": 2.0,
+   "raw_offset_ms": -39.6,
+   "moment_ms": 2.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 57,
+   "frame": 4110,
+   "support": "raw",
+   "shown_at": 171.25,
+   "aimed_at": 171.2917,
+   "nearest_downbeat": 171.2957,
+   "offset_ms": -4.0,
+   "raw_offset_ms": -45.7,
+   "moment_ms": 2460.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 58,
+   "frame": 4169,
+   "support": "raw",
+   "shown_at": 173.7083,
+   "aimed_at": 173.75,
+   "nearest_downbeat": 173.7601,
+   "offset_ms": -10.1,
+   "raw_offset_ms": -51.8,
+   "moment_ms": 10.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "vocal_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 59,
+   "frame": 4230,
+   "support": "raw",
+   "shown_at": 176.25,
+   "aimed_at": 176.2917,
+   "nearest_downbeat": 176.2844,
+   "offset_ms": 7.3,
+   "raw_offset_ms": -34.4,
+   "moment_ms": 7.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 60,
+   "frame": 4413,
+   "support": "raw",
+   "shown_at": 183.875,
+   "aimed_at": 183.9167,
+   "nearest_downbeat": 183.937,
+   "offset_ms": -20.3,
+   "raw_offset_ms": -62.0,
+   "moment_ms": 20.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "drop",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 61,
+   "frame": 4474,
+   "support": "raw",
+   "shown_at": 186.4167,
+   "aimed_at": 186.4583,
+   "nearest_downbeat": 186.4562,
+   "offset_ms": 2.1,
+   "raw_offset_ms": -39.5,
+   "moment_ms": 2.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 62,
+   "frame": 4534,
+   "support": "raw",
+   "shown_at": 188.9167,
+   "aimed_at": 188.9583,
+   "nearest_downbeat": 188.9705,
+   "offset_ms": -12.2,
+   "raw_offset_ms": -53.8,
+   "moment_ms": 12.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 63,
+   "frame": 4595,
+   "support": "raw",
+   "shown_at": 191.4583,
+   "aimed_at": 191.5,
+   "nearest_downbeat": 191.4998,
+   "offset_ms": 0.2,
+   "raw_offset_ms": -41.5,
+   "moment_ms": 0.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 64,
+   "frame": 4655,
+   "support": "raw",
+   "shown_at": 193.9583,
+   "aimed_at": 194.0,
+   "nearest_downbeat": 193.9841,
+   "offset_ms": 15.9,
+   "raw_offset_ms": -25.8,
+   "moment_ms": 15.9,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 65,
+   "frame": 4714,
+   "support": "raw",
+   "shown_at": 196.4167,
+   "aimed_at": 196.4583,
+   "nearest_downbeat": 196.4585,
+   "offset_ms": -0.2,
+   "raw_offset_ms": -41.8,
+   "moment_ms": 2474.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 66,
+   "frame": 4774,
+   "support": "raw",
+   "shown_at": 198.9167,
+   "aimed_at": 198.9583,
+   "nearest_downbeat": 198.9678,
+   "offset_ms": -9.5,
+   "raw_offset_ms": -51.1,
+   "moment_ms": 9.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 67,
+   "frame": 4833,
+   "support": "raw",
+   "shown_at": 201.375,
+   "aimed_at": 201.4167,
+   "nearest_downbeat": 201.4172,
+   "offset_ms": -0.5,
+   "raw_offset_ms": -42.2,
+   "moment_ms": 0.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 68,
+   "frame": 4890,
+   "support": "override",
+   "shown_at": 203.75,
+   "aimed_at": 203.7917,
+   "nearest_downbeat": 203.7968,
+   "offset_ms": -5.1,
+   "raw_offset_ms": -46.8,
+   "moment_ms": 2374.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 69,
+   "frame": 4950,
+   "support": "override",
+   "shown_at": 206.25,
+   "aimed_at": 206.2917,
+   "nearest_downbeat": 206.3111,
+   "offset_ms": -19.4,
+   "raw_offset_ms": -61.1,
+   "moment_ms": 19.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 70,
+   "frame": 5131,
+   "support": "raw",
+   "shown_at": 213.7917,
+   "aimed_at": 213.8333,
+   "nearest_downbeat": 213.849,
+   "offset_ms": -15.7,
+   "raw_offset_ms": -57.3,
+   "moment_ms": 15.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 71,
+   "frame": 5190,
+   "support": "raw",
+   "shown_at": 216.25,
+   "aimed_at": 216.2917,
+   "nearest_downbeat": 216.2934,
+   "offset_ms": -1.7,
+   "raw_offset_ms": -43.4,
+   "moment_ms": 1.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 72,
+   "frame": 5250,
+   "support": "raw",
+   "shown_at": 218.75,
+   "aimed_at": 218.7917,
+   "nearest_downbeat": 218.7778,
+   "offset_ms": 13.9,
+   "raw_offset_ms": -27.8,
+   "moment_ms": 13.9,
+   "seen_in_pixels": true,
+   "hits": [
+    "drop",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 73,
+   "frame": 5311,
+   "support": "raw",
+   "shown_at": 221.2917,
+   "aimed_at": 221.3333,
+   "nearest_downbeat": 221.342,
+   "offset_ms": -8.7,
+   "raw_offset_ms": -50.3,
+   "moment_ms": 2468.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 74,
+   "frame": 5370,
+   "support": "raw",
+   "shown_at": 223.75,
+   "aimed_at": 223.7917,
+   "nearest_downbeat": 223.8014,
+   "offset_ms": -9.7,
+   "raw_offset_ms": -51.4,
+   "moment_ms": 9.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 75,
+   "frame": 5429,
+   "support": "raw",
+   "shown_at": 226.2083,
+   "aimed_at": 226.25,
+   "nearest_downbeat": 226.2558,
+   "offset_ms": -5.8,
+   "raw_offset_ms": -47.5,
+   "moment_ms": 5.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 76,
+   "frame": 5490,
+   "support": "raw",
+   "shown_at": 228.75,
+   "aimed_at": 228.7917,
+   "nearest_downbeat": 228.7651,
+   "offset_ms": 26.6,
+   "raw_offset_ms": -15.1,
+   "moment_ms": 26.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 77,
+   "frame": 5550,
+   "support": "raw",
+   "shown_at": 231.25,
+   "aimed_at": 231.2917,
+   "nearest_downbeat": 231.2844,
+   "offset_ms": 7.3,
+   "raw_offset_ms": -34.4,
+   "moment_ms": 7.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 78,
+   "frame": 5671,
+   "support": "raw",
+   "shown_at": 236.2917,
+   "aimed_at": 236.3333,
+   "nearest_downbeat": 236.3129,
+   "offset_ms": 20.4,
+   "raw_offset_ms": -21.2,
+   "moment_ms": 5048.9,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 79,
+   "frame": 5791,
+   "support": "raw",
+   "shown_at": 241.2917,
+   "aimed_at": 241.3333,
+   "nearest_downbeat": 241.3116,
+   "offset_ms": 21.7,
+   "raw_offset_ms": -19.9,
+   "moment_ms": 7296.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 80,
+   "frame": 5850,
+   "support": "raw",
+   "shown_at": 243.75,
+   "aimed_at": 243.7917,
+   "nearest_downbeat": 243.771,
+   "offset_ms": 20.7,
+   "raw_offset_ms": -21.0,
+   "moment_ms": 4838.2,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 81,
+   "frame": 5966,
+   "support": "raw",
+   "shown_at": 248.5833,
+   "aimed_at": 248.625,
+   "nearest_downbeat": 248.6299,
+   "offset_ms": -4.9,
+   "raw_offset_ms": -46.6,
+   "moment_ms": 4.9,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 82,
+   "frame": 6082,
+   "support": "raw",
+   "shown_at": 253.4167,
+   "aimed_at": 253.4583,
+   "nearest_downbeat": 253.4789,
+   "offset_ms": -20.6,
+   "raw_offset_ms": -62.2,
+   "moment_ms": 20.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "release",
+    "change"
+   ],
+   "ok": true
+  }
+ ],
+ "video_frames": 6132,
+ "audio": {
+  "audio_streams": 1,
+  "lag_samples": 0,
+  "gain_db": -0.07,
+  "residual_db": -23.200000762939453,
+  "worst_window": {
+   "t": 28.0,
+   "residual_db": -15.100000381469727
+  },
+  "length_diff_ms": 0.0
+ },
+ "fails": [],
+ "pass": true
+}
