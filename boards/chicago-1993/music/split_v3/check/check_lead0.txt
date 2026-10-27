@@ -1,0 +1,28 @@
+music_split_v3_lead0.mp4 lead 0: re-detected 28 downbeats, 6 pulses/bar, irregular bars []
+ shot frame  aimed_at  downbeat  offset   raw   pixels  hits
+   1    49    2.042    2.030  +11.3  +11.3  yes  change
+   2   241   10.042   10.022  +19.5  +19.5  yes  drums_in,section
+   3   337   14.042   14.028  +13.6  +13.6  yes  section
+   4   433   18.042   18.029  +12.7  +12.7  yes  fill_landing,section
+   5   529   22.042   22.030  +11.8  +11.8  yes  section
+   6   577   24.042   24.030  +11.3  +11.3  yes  drums_out,fill_landing,section
+   7   625   26.042   26.021  +20.8  +20.8  yes  section
+   8   720   30.000   30.012  -11.8  -11.8  yes  section
+   9   768   32.000   32.020  -20.0  -20.0  yes  break,section
+  10   816   34.000   34.008   -7.7   -7.7  yes  drums_in,drop,section
+  11   864   36.000   36.018  -18.1  -18.1  yes  base
+  12   912   38.000   38.009   -8.6   -8.6  yes  section
+  13   960   40.000   40.009   -9.1   -9.1  yes  change
+  14  1008   42.000   42.010   -9.5   -9.5  yes  fill_landing,section
+  15  1057   44.042   44.035   +6.8   +6.8  yes  section
+  16  1104   46.000   46.015  -15.4  -15.4  yes  base
+  17  1153   48.042   48.046   -4.1   -4.1  yes  change
+  18  1201   50.042   50.041   +0.4   +0.4  yes  change
+  19  1249   52.042   52.047   -5.0   -5.0  yes  fill_landing,section
+  20  1297   54.042   54.047   -5.5   -5.5  yes  release,change
+  splice 24.040: +9.7 ms to downbeat, low-end dip -2.5 dB (source -3.0 dB)
+  splice 44.033: +1.4 ms to downbeat, low-end dip -22.0 dB (source -23.0 dB)
+  audio: 1 stream, lag 0 samples, gain -0.01 dB, null residual -37.599998474121094 dB (worst 1 s window -28.600000381469727 dB at 33 s)
+  panel 0: in-shot motion spikes (not cuts: histogram unchanged or picture does not persist): frames [631, 667, 695, 914, 1044]
+  panel 1: in-shot motion spikes (not cuts: histogram unchanged or picture does not persist): frames [685, 1211, 1213, 1237]
+PASS

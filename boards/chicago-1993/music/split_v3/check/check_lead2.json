@@ -1,0 +1,372 @@
+{
+ "render": "/workspace/moodboard/chicago-1993/edits/music_split_v3_lead2.mp4",
+ "lead": 2,
+ "redetected": {
+  "downbeats": 28,
+  "bar_pulses": 6,
+  "irregular_bars": [],
+  "low_confidence": [
+   {
+    "t": 0.005,
+    "conf": 0.406
+   }
+  ]
+ },
+ "motion_spikes": {
+  "0": [
+   629,
+   665,
+   693,
+   912,
+   1042
+  ],
+  "1": [
+   683,
+   1209,
+   1211,
+   1235
+  ]
+ },
+ "cuts": [
+  {
+   "shot": 1,
+   "frame": 47,
+   "shown_at": 1.9583,
+   "aimed_at": 2.0417,
+   "nearest_downbeat": 2.0304,
+   "offset_ms": 11.3,
+   "raw_offset_ms": -72.1,
+   "moment_ms": 7980.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 2,
+   "frame": 239,
+   "shown_at": 9.9583,
+   "aimed_at": 10.0417,
+   "nearest_downbeat": 10.0222,
+   "offset_ms": 19.5,
+   "raw_offset_ms": -63.9,
+   "moment_ms": 19.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 3,
+   "frame": 335,
+   "shown_at": 13.9583,
+   "aimed_at": 14.0417,
+   "nearest_downbeat": 14.0281,
+   "offset_ms": 13.6,
+   "raw_offset_ms": -69.8,
+   "moment_ms": 13.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 4,
+   "frame": 431,
+   "shown_at": 17.9583,
+   "aimed_at": 18.0417,
+   "nearest_downbeat": 18.029,
+   "offset_ms": 12.7,
+   "raw_offset_ms": -70.7,
+   "moment_ms": 12.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 5,
+   "frame": 527,
+   "shown_at": 21.9583,
+   "aimed_at": 22.0417,
+   "nearest_downbeat": 22.0299,
+   "offset_ms": 11.8,
+   "raw_offset_ms": -71.6,
+   "moment_ms": 11.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 6,
+   "frame": 575,
+   "shown_at": 23.9583,
+   "aimed_at": 24.0417,
+   "nearest_downbeat": 24.0304,
+   "offset_ms": 11.3,
+   "raw_offset_ms": -72.1,
+   "moment_ms": 11.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 7,
+   "frame": 623,
+   "shown_at": 25.9583,
+   "aimed_at": 26.0417,
+   "nearest_downbeat": 26.0209,
+   "offset_ms": 20.8,
+   "raw_offset_ms": -62.6,
+   "moment_ms": 20.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 8,
+   "frame": 718,
+   "shown_at": 29.9167,
+   "aimed_at": 30.0,
+   "nearest_downbeat": 30.0118,
+   "offset_ms": -11.8,
+   "raw_offset_ms": -95.1,
+   "moment_ms": 11.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 9,
+   "frame": 766,
+   "shown_at": 31.9167,
+   "aimed_at": 32.0,
+   "nearest_downbeat": 32.02,
+   "offset_ms": -20.0,
+   "raw_offset_ms": -103.3,
+   "moment_ms": 20.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 10,
+   "frame": 814,
+   "shown_at": 33.9167,
+   "aimed_at": 34.0,
+   "nearest_downbeat": 34.0077,
+   "offset_ms": -7.7,
+   "raw_offset_ms": -91.0,
+   "moment_ms": 7.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "drop",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 11,
+   "frame": 862,
+   "shown_at": 35.9167,
+   "aimed_at": 36.0,
+   "nearest_downbeat": 36.0181,
+   "offset_ms": -18.1,
+   "raw_offset_ms": -101.4,
+   "moment_ms": 1992.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 12,
+   "frame": 910,
+   "shown_at": 37.9167,
+   "aimed_at": 38.0,
+   "nearest_downbeat": 38.0086,
+   "offset_ms": -8.6,
+   "raw_offset_ms": -91.9,
+   "moment_ms": 8.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 13,
+   "frame": 958,
+   "shown_at": 39.9167,
+   "aimed_at": 40.0,
+   "nearest_downbeat": 40.0091,
+   "offset_ms": -9.1,
+   "raw_offset_ms": -92.4,
+   "moment_ms": 1991.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 14,
+   "frame": 1006,
+   "shown_at": 41.9167,
+   "aimed_at": 42.0,
+   "nearest_downbeat": 42.0095,
+   "offset_ms": -9.5,
+   "raw_offset_ms": -92.8,
+   "moment_ms": 9.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 15,
+   "frame": 1055,
+   "shown_at": 43.9583,
+   "aimed_at": 44.0417,
+   "nearest_downbeat": 44.0349,
+   "offset_ms": 6.8,
+   "raw_offset_ms": -76.6,
+   "moment_ms": 6.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 16,
+   "frame": 1102,
+   "shown_at": 45.9167,
+   "aimed_at": 46.0,
+   "nearest_downbeat": 46.0154,
+   "offset_ms": -15.4,
+   "raw_offset_ms": -98.7,
+   "moment_ms": 1965.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 17,
+   "frame": 1151,
+   "shown_at": 47.9583,
+   "aimed_at": 48.0417,
+   "nearest_downbeat": 48.0458,
+   "offset_ms": -4.1,
+   "raw_offset_ms": -87.5,
+   "moment_ms": 4005.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 18,
+   "frame": 1199,
+   "shown_at": 49.9583,
+   "aimed_at": 50.0417,
+   "nearest_downbeat": 50.0413,
+   "offset_ms": 0.4,
+   "raw_offset_ms": -83.0,
+   "moment_ms": 2005.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 19,
+   "frame": 1247,
+   "shown_at": 51.9583,
+   "aimed_at": 52.0417,
+   "nearest_downbeat": 52.0467,
+   "offset_ms": -5.0,
+   "raw_offset_ms": -88.4,
+   "moment_ms": 5.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 20,
+   "frame": 1295,
+   "shown_at": 53.9583,
+   "aimed_at": 54.0417,
+   "nearest_downbeat": 54.0472,
+   "offset_ms": -5.5,
+   "raw_offset_ms": -88.9,
+   "moment_ms": 5.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "release",
+    "change"
+   ],
+   "ok": true
+  }
+ ],
+ "video_frames": 1345,
+ "splices": [
+  {
+   "edit_t": 24.0401,
+   "downbeat_offset_ms": 9.7,
+   "low_dip_db": -2.5,
+   "source_low_dip_db": -3.0,
+   "ok": true
+  },
+  {
+   "edit_t": 44.0335,
+   "downbeat_offset_ms": 1.4,
+   "low_dip_db": -22.0,
+   "source_low_dip_db": -23.0,
+   "ok": true
+  }
+ ],
+ "audio": {
+  "audio_streams": 1,
+  "lag_samples": 0,
+  "gain_db": -0.01,
+  "residual_db": -37.599998474121094,
+  "worst_window": {
+   "t": 33.0,
+   "residual_db": -28.600000381469727
+  },
+  "length_diff_ms": 14.7
+ },
+ "fails": [],
+ "pass": true
+}

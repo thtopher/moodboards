@@ -1,0 +1,372 @@
+{
+ "render": "/workspace/moodboard/chicago-1993/edits/music_split_v3_lead0.mp4",
+ "lead": 0,
+ "redetected": {
+  "downbeats": 28,
+  "bar_pulses": 6,
+  "irregular_bars": [],
+  "low_confidence": [
+   {
+    "t": 0.005,
+    "conf": 0.406
+   }
+  ]
+ },
+ "motion_spikes": {
+  "0": [
+   631,
+   667,
+   695,
+   914,
+   1044
+  ],
+  "1": [
+   685,
+   1211,
+   1213,
+   1237
+  ]
+ },
+ "cuts": [
+  {
+   "shot": 1,
+   "frame": 49,
+   "shown_at": 2.0417,
+   "aimed_at": 2.0417,
+   "nearest_downbeat": 2.0304,
+   "offset_ms": 11.3,
+   "raw_offset_ms": 11.3,
+   "moment_ms": 7980.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 2,
+   "frame": 241,
+   "shown_at": 10.0417,
+   "aimed_at": 10.0417,
+   "nearest_downbeat": 10.0222,
+   "offset_ms": 19.5,
+   "raw_offset_ms": 19.5,
+   "moment_ms": 19.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 3,
+   "frame": 337,
+   "shown_at": 14.0417,
+   "aimed_at": 14.0417,
+   "nearest_downbeat": 14.0281,
+   "offset_ms": 13.6,
+   "raw_offset_ms": 13.6,
+   "moment_ms": 13.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 4,
+   "frame": 433,
+   "shown_at": 18.0417,
+   "aimed_at": 18.0417,
+   "nearest_downbeat": 18.029,
+   "offset_ms": 12.7,
+   "raw_offset_ms": 12.7,
+   "moment_ms": 12.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 5,
+   "frame": 529,
+   "shown_at": 22.0417,
+   "aimed_at": 22.0417,
+   "nearest_downbeat": 22.0299,
+   "offset_ms": 11.8,
+   "raw_offset_ms": 11.8,
+   "moment_ms": 11.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 6,
+   "frame": 577,
+   "shown_at": 24.0417,
+   "aimed_at": 24.0417,
+   "nearest_downbeat": 24.0304,
+   "offset_ms": 11.3,
+   "raw_offset_ms": 11.3,
+   "moment_ms": 11.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_out",
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 7,
+   "frame": 625,
+   "shown_at": 26.0417,
+   "aimed_at": 26.0417,
+   "nearest_downbeat": 26.0209,
+   "offset_ms": 20.8,
+   "raw_offset_ms": 20.8,
+   "moment_ms": 20.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 8,
+   "frame": 720,
+   "shown_at": 30.0,
+   "aimed_at": 30.0,
+   "nearest_downbeat": 30.0118,
+   "offset_ms": -11.8,
+   "raw_offset_ms": -11.8,
+   "moment_ms": 11.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 9,
+   "frame": 768,
+   "shown_at": 32.0,
+   "aimed_at": 32.0,
+   "nearest_downbeat": 32.02,
+   "offset_ms": -20.0,
+   "raw_offset_ms": -20.0,
+   "moment_ms": 20.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "break",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 10,
+   "frame": 816,
+   "shown_at": 34.0,
+   "aimed_at": 34.0,
+   "nearest_downbeat": 34.0077,
+   "offset_ms": -7.7,
+   "raw_offset_ms": -7.7,
+   "moment_ms": 7.7,
+   "seen_in_pixels": true,
+   "hits": [
+    "drums_in",
+    "drop",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 11,
+   "frame": 864,
+   "shown_at": 36.0,
+   "aimed_at": 36.0,
+   "nearest_downbeat": 36.0181,
+   "offset_ms": -18.1,
+   "raw_offset_ms": -18.1,
+   "moment_ms": 1992.3,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 12,
+   "frame": 912,
+   "shown_at": 38.0,
+   "aimed_at": 38.0,
+   "nearest_downbeat": 38.0086,
+   "offset_ms": -8.6,
+   "raw_offset_ms": -8.6,
+   "moment_ms": 8.6,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 13,
+   "frame": 960,
+   "shown_at": 40.0,
+   "aimed_at": 40.0,
+   "nearest_downbeat": 40.0091,
+   "offset_ms": -9.1,
+   "raw_offset_ms": -9.1,
+   "moment_ms": 1991.4,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 14,
+   "frame": 1008,
+   "shown_at": 42.0,
+   "aimed_at": 42.0,
+   "nearest_downbeat": 42.0095,
+   "offset_ms": -9.5,
+   "raw_offset_ms": -9.5,
+   "moment_ms": 9.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 15,
+   "frame": 1057,
+   "shown_at": 44.0417,
+   "aimed_at": 44.0417,
+   "nearest_downbeat": 44.0349,
+   "offset_ms": 6.8,
+   "raw_offset_ms": 6.8,
+   "moment_ms": 6.8,
+   "seen_in_pixels": true,
+   "hits": [
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 16,
+   "frame": 1104,
+   "shown_at": 46.0,
+   "aimed_at": 46.0,
+   "nearest_downbeat": 46.0154,
+   "offset_ms": -15.4,
+   "raw_offset_ms": -15.4,
+   "moment_ms": 1965.1,
+   "seen_in_pixels": true,
+   "hits": [
+    "base"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 17,
+   "frame": 1153,
+   "shown_at": 48.0417,
+   "aimed_at": 48.0417,
+   "nearest_downbeat": 48.0458,
+   "offset_ms": -4.1,
+   "raw_offset_ms": -4.1,
+   "moment_ms": 4005.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 18,
+   "frame": 1201,
+   "shown_at": 50.0417,
+   "aimed_at": 50.0417,
+   "nearest_downbeat": 50.0413,
+   "offset_ms": 0.4,
+   "raw_offset_ms": 0.4,
+   "moment_ms": 2005.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "change"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 19,
+   "frame": 1249,
+   "shown_at": 52.0417,
+   "aimed_at": 52.0417,
+   "nearest_downbeat": 52.0467,
+   "offset_ms": -5.0,
+   "raw_offset_ms": -5.0,
+   "moment_ms": 5.0,
+   "seen_in_pixels": true,
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "ok": true
+  },
+  {
+   "shot": 20,
+   "frame": 1297,
+   "shown_at": 54.0417,
+   "aimed_at": 54.0417,
+   "nearest_downbeat": 54.0472,
+   "offset_ms": -5.5,
+   "raw_offset_ms": -5.5,
+   "moment_ms": 5.5,
+   "seen_in_pixels": true,
+   "hits": [
+    "release",
+    "change"
+   ],
+   "ok": true
+  }
+ ],
+ "video_frames": 1345,
+ "splices": [
+  {
+   "edit_t": 24.0401,
+   "downbeat_offset_ms": 9.7,
+   "low_dip_db": -2.5,
+   "source_low_dip_db": -3.0,
+   "ok": true
+  },
+  {
+   "edit_t": 44.0335,
+   "downbeat_offset_ms": 1.4,
+   "low_dip_db": -22.0,
+   "source_low_dip_db": -23.0,
+   "ok": true
+  }
+ ],
+ "audio": {
+  "audio_streams": 1,
+  "lag_samples": 0,
+  "gain_db": -0.01,
+  "residual_db": -37.599998474121094,
+  "worst_window": {
+   "t": 33.0,
+   "residual_db": -28.600000381469727
+  },
+  "length_diff_ms": 14.7
+ },
+ "fails": [],
+ "pass": true
+}

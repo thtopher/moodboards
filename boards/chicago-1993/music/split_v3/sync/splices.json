@@ -1,0 +1,45 @@
+{
+ "source": "/workspace/moodboard/chicago-1993/edits/music/lyria_opt1.mp3",
+ "source_beats": "/workspace/moodboard/chicago-1993/edits/v3/sync/source_beats.json",
+ "segments": [
+  {
+   "src_bar0": 3,
+   "src_bar1": 15,
+   "src_t0": 6.0403,
+   "src_t1": 30.0733,
+   "src_downbeat0": 6.0363,
+   "src_downbeat1": 30.0567,
+   "edit_t0": 0.012
+  },
+  {
+   "src_bar0": 19,
+   "src_bar1": 29,
+   "src_t0": 38.0839,
+   "src_t1": 58.0873,
+   "src_downbeat0": 38.1034,
+   "src_downbeat1": 58.078,
+   "edit_t0": 24.0351
+  },
+  {
+   "src_bar0": 32,
+   "src_bar1": 38,
+   "src_t0": 64.0407,
+   "src_t1": 76.0521,
+   "src_downbeat0": 64.0494,
+   "src_downbeat1": 76.0821,
+   "edit_t0": 44.0285
+  }
+ ],
+ "joints_edit_t": [
+  24.0401,
+  44.0335
+ ],
+ "preroll": 0.012,
+ "crossfade": 0.01,
+ "duration": 56.0279,
+ "gain_db": -1.76,
+ "measured_lufs": -13.27,
+ "measured_tp": 0.26,
+ "fade_in": 1.2,
+ "fade_out": 1.2
+}

@@ -1,0 +1,1965 @@
+{
+ "fps": 24,
+ "cutlist": [
+  {
+   "n": 0,
+   "bar0": 0,
+   "bar1": 1,
+   "bars": 1,
+   "t0": 0.0,
+   "t1": 2.0304,
+   "energy": "sparse",
+   "hits": [
+    "start"
+   ],
+   "rank": null,
+   "why": "",
+   "frames": {
+    "0": [
+     0,
+     49
+    ],
+    "1": [
+     0,
+     48
+    ],
+    "2": [
+     0,
+     47
+    ]
+   }
+  },
+  {
+   "n": 1,
+   "bar0": 1,
+   "bar1": 5,
+   "bars": 4,
+   "t0": 2.0304,
+   "t1": 10.0222,
+   "energy": "sparse",
+   "hits": [
+    "change"
+   ],
+   "rank": "med",
+   "why": "novelty 0.27, mix +15.1 dB",
+   "frames": {
+    "0": [
+     49,
+     241
+    ],
+    "1": [
+     48,
+     240
+    ],
+    "2": [
+     47,
+     239
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "bar0": 5,
+   "bar1": 7,
+   "bars": 2,
+   "t0": 10.0222,
+   "t1": 14.0281,
+   "energy": "groove",
+   "hits": [
+    "drums_in",
+    "section"
+   ],
+   "rank": "top",
+   "why": "drum stem -45→-41 dB; novelty 0.97",
+   "frames": {
+    "0": [
+     241,
+     337
+    ],
+    "1": [
+     240,
+     336
+    ],
+    "2": [
+     239,
+     335
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "bar0": 7,
+   "bar1": 9,
+   "bars": 2,
+   "t0": 14.0281,
+   "t1": 18.029,
+   "energy": "groove",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 0.78",
+   "frames": {
+    "0": [
+     337,
+     433
+    ],
+    "1": [
+     336,
+     432
+    ],
+    "2": [
+     335,
+     431
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "bar0": 9,
+   "bar1": 11,
+   "bars": 2,
+   "t0": 18.029,
+   "t1": 22.0299,
+   "energy": "groove",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "rank": "high",
+   "why": "fill in previous bar: 1 late hits, late drum level +6.5 dB vs typical; novelty 0.79",
+   "frames": {
+    "0": [
+     433,
+     529
+    ],
+    "1": [
+     432,
+     528
+    ],
+    "2": [
+     431,
+     527
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "bar0": 11,
+   "bar1": 12,
+   "bars": 1,
+   "t0": 22.0299,
+   "t1": 24.0304,
+   "energy": "groove",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 0.73",
+   "frames": {
+    "0": [
+     529,
+     577
+    ],
+    "1": [
+     528,
+     576
+    ],
+    "2": [
+     527,
+     575
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "bar0": 12,
+   "bar1": 13,
+   "bars": 1,
+   "t0": 24.0304,
+   "t1": 26.0209,
+   "energy": "sparse",
+   "hits": [
+    "drums_out",
+    "fill_landing",
+    "section"
+   ],
+   "rank": "top",
+   "why": "drum stem -38→-46 dB; fill in previous bar: 3 late hits, late drum level +7.8 dB vs typical; novelty 0.77",
+   "frames": {
+    "0": [
+     577,
+     625
+    ],
+    "1": [
+     576,
+     624
+    ],
+    "2": [
+     575,
+     623
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "bar0": 13,
+   "bar1": 15,
+   "bars": 2,
+   "t0": 26.0209,
+   "t1": 30.0118,
+   "energy": "sparse",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 0.75",
+   "frames": {
+    "0": [
+     625,
+     720
+    ],
+    "1": [
+     624,
+     719
+    ],
+    "2": [
+     623,
+     718
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "bar0": 15,
+   "bar1": 16,
+   "bars": 1,
+   "t0": 30.0118,
+   "t1": 32.02,
+   "energy": "sparse",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 1.00",
+   "frames": {
+    "0": [
+     720,
+     768
+    ],
+    "1": [
+     719,
+     767
+    ],
+    "2": [
+     718,
+     766
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "bar0": 16,
+   "bar1": 17,
+   "bars": 1,
+   "t0": 32.02,
+   "t1": 34.0077,
+   "energy": "break",
+   "hits": [
+    "break",
+    "section"
+   ],
+   "rank": "top",
+   "why": "mix -8.7 dB; novelty 0.52",
+   "frames": {
+    "0": [
+     768,
+     816
+    ],
+    "1": [
+     767,
+     815
+    ],
+    "2": [
+     766,
+     814
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "bar0": 17,
+   "bar1": 18,
+   "bars": 1,
+   "t0": 34.0077,
+   "t1": 35.9932,
+   "energy": "peak",
+   "hits": [
+    "drums_in",
+    "drop",
+    "section"
+   ],
+   "rank": "top",
+   "why": "drum stem -46→-38 dB; mix +15.4 dB; novelty 0.87",
+   "frames": {
+    "0": [
+     816,
+     864
+    ],
+    "1": [
+     815,
+     863
+    ],
+    "2": [
+     814,
+     862
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "bar0": 18,
+   "bar1": 19,
+   "bars": 1,
+   "t0": 35.9932,
+   "t1": 38.0086,
+   "energy": "peak",
+   "hits": [
+    "base"
+   ],
+   "rank": null,
+   "why": "",
+   "frames": {
+    "0": [
+     864,
+     912
+    ],
+    "1": [
+     863,
+     911
+    ],
+    "2": [
+     862,
+     910
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "bar0": 19,
+   "bar1": 20,
+   "bars": 1,
+   "t0": 38.0086,
+   "t1": 40.0091,
+   "energy": "peak",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 0.82",
+   "frames": {
+    "0": [
+     912,
+     960
+    ],
+    "1": [
+     911,
+     959
+    ],
+    "2": [
+     910,
+     958
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "bar0": 20,
+   "bar1": 21,
+   "bars": 1,
+   "t0": 40.0091,
+   "t1": 42.0095,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "rank": "med",
+   "why": "novelty 0.44, mix +0.8 dB",
+   "frames": {
+    "0": [
+     960,
+     1008
+    ],
+    "1": [
+     959,
+     1007
+    ],
+    "2": [
+     958,
+     1006
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "bar0": 21,
+   "bar1": 22,
+   "bars": 1,
+   "t0": 42.0095,
+   "t1": 44.0349,
+   "energy": "peak",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "rank": "high",
+   "why": "fill in previous bar: 1 late hits, late drum level +11.3 dB vs typical; novelty 0.79",
+   "frames": {
+    "0": [
+     1008,
+     1057
+    ],
+    "1": [
+     1007,
+     1056
+    ],
+    "2": [
+     1006,
+     1055
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "bar0": 22,
+   "bar1": 23,
+   "bars": 1,
+   "t0": 44.0349,
+   "t1": 46.0154,
+   "energy": "peak",
+   "hits": [
+    "section"
+   ],
+   "rank": "high",
+   "why": "novelty 0.71",
+   "frames": {
+    "0": [
+     1057,
+     1104
+    ],
+    "1": [
+     1056,
+     1103
+    ],
+    "2": [
+     1055,
+     1102
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "bar0": 23,
+   "bar1": 24,
+   "bars": 1,
+   "t0": 46.0154,
+   "t1": 48.0458,
+   "energy": "peak",
+   "hits": [
+    "base"
+   ],
+   "rank": null,
+   "why": "",
+   "frames": {
+    "0": [
+     1104,
+     1153
+    ],
+    "1": [
+     1103,
+     1152
+    ],
+    "2": [
+     1102,
+     1151
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "bar0": 24,
+   "bar1": 25,
+   "bars": 1,
+   "t0": 48.0458,
+   "t1": 50.0413,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "rank": "med",
+   "why": "novelty 0.40, mix +0.4 dB",
+   "frames": {
+    "0": [
+     1153,
+     1201
+    ],
+    "1": [
+     1152,
+     1200
+    ],
+    "2": [
+     1151,
+     1199
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "bar0": 25,
+   "bar1": 26,
+   "bars": 1,
+   "t0": 50.0413,
+   "t1": 52.0467,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "rank": "med",
+   "why": "novelty 0.45, mix +1.1 dB",
+   "frames": {
+    "0": [
+     1201,
+     1249
+    ],
+    "1": [
+     1200,
+     1248
+    ],
+    "2": [
+     1199,
+     1247
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "bar0": 26,
+   "bar1": 27,
+   "bars": 1,
+   "t0": 52.0467,
+   "t1": 54.0472,
+   "energy": "peak",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "rank": "high",
+   "why": "fill in previous bar: 1 late hits, late drum level +11.6 dB vs typical; novelty 0.88",
+   "frames": {
+    "0": [
+     1249,
+     1297
+    ],
+    "1": [
+     1248,
+     1296
+    ],
+    "2": [
+     1247,
+     1295
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "bar0": 27,
+   "bar1": 28,
+   "bars": 1,
+   "t0": 54.0472,
+   "t1": 56.028,
+   "energy": "release",
+   "hits": [
+    "release",
+    "change"
+   ],
+   "rank": "top",
+   "why": "mix -21.7 dB; novelty 0.43, mix -21.7 dB",
+   "frames": {
+    "0": [
+     1297,
+     1345
+    ],
+    "1": [
+     1296,
+     1345
+    ],
+    "2": [
+     1295,
+     1345
+    ]
+   }
+  }
+ ],
+ "arc": "One rider's trip mirrored by one heat of steel. Chicago: the city at rest → waiting in the rain → the bus arrives on the drums → boarding → pulling away down the sodium strip → (drums out: the ride starts quietly, wipers, sodium) → (break: feet in the puddle) → the drop: the ride across the city by train, L and subway at full speed → back through the sodium side streets → the empty shelter. Steel: the furnace idles → the ladle fills → the slab enters the rolls → tap and hot bar → forge and tap → (break: the run-out slows) → the mill at full speed → billets cool on the line → ingots cool in the dark.",
+ "pairs": [
+  {
+   "shot": 0,
+   "bar0": 0,
+   "bars": 1,
+   "t0": 0.0,
+   "t1": 2.0304,
+   "energy": "sparse",
+   "hits": [
+    "start"
+   ],
+   "why": "",
+   "rule": "STILL_GLOW",
+   "rule_name": "Still glow",
+   "link": "the city at rest under sodium ↔ the furnace idling (fade in)",
+   "evidence": "near-still (flow 0.1 / 2.2) and warm-lit (R-B 5 / 30)",
+   "chi": "t-rain-window",
+   "ctr": "a-servant-ladle",
+   "chi_beat": "Night: the city at rest",
+   "ctr_beat": "The furnace idles"
+  },
+  {
+   "shot": 1,
+   "bar0": 1,
+   "bars": 4,
+   "t0": 2.0304,
+   "t1": 10.0222,
+   "energy": "sparse",
+   "hits": [
+    "change"
+   ],
+   "why": "novelty 0.27, mix +15.1 dB",
+   "rule": "FALL_INTO",
+   "rule_name": "Falling into a pool",
+   "link": "rain rings in the puddle ↔ the steel stream falling into the ladle (zone 17 pair)",
+   "evidence": "both tagged falling (down), both slow (flow 6.2 / 1.9)",
+   "chi": "t-rain-puddles",
+   "ctr": "a-kover-ladle",
+   "chi_beat": "Waiting: rain pools at the curb",
+   "ctr_beat": "Charge: the ladle fills"
+  },
+  {
+   "shot": 2,
+   "bar0": 5,
+   "bars": 2,
+   "t0": 10.0222,
+   "t1": 14.0281,
+   "energy": "groove",
+   "hits": [
+    "drums_in",
+    "section"
+   ],
+   "why": "drum stem -45→-41 dB; novelty 0.97",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the bus pulls into the stop ↔ the slab rolls into the stand, same direction (zone 17 pair)",
+   "evidence": "subject motion +38 / +12 px/s (L→R both)",
+   "chi": "c-impr-bus-night",
+   "ctr": "a-acroni-rolls",
+   "chi_beat": "Arrival: the bus pulls in",
+   "ctr_beat": "The slab enters the rolls"
+  },
+  {
+   "shot": 3,
+   "bar0": 7,
+   "bars": 2,
+   "t0": 14.0281,
+   "t1": 18.029,
+   "energy": "groove",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 0.78",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "riders cross to the bus ↔ the glowing slab slides through, same direction (zone 17 pair)",
+   "evidence": "subject motion +16 / +26 px/s (L→R both)",
+   "chi": "c-impr-crossing",
+   "ctr": "a-servant-slab",
+   "chi_beat": "Boarding: riders cross",
+   "ctr_beat": "The slab runs through"
+  },
+  {
+   "shot": 4,
+   "bar0": 9,
+   "bars": 2,
+   "t0": 18.029,
+   "t1": 22.0299,
+   "energy": "groove",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "why": "fill in previous bar: 1 late hits, late drum level +6.5 dB vs typical; novelty 0.79",
+   "rule": "MOLTEN_LIGHT",
+   "rule_name": "Sodium = molten",
+   "link": "the sodium-lit strip ↔ the open-hearth tap: the same orange in the dark",
+   "evidence": "warm light source both (sodium/furnace), orange cast R-B 39 / 30",
+   "chi": "c-edison-storefronts",
+   "ctr": "a-servant-tap",
+   "chi_beat": "Pulling away down the sodium strip",
+   "ctr_beat": "The tap glows"
+  },
+  {
+   "shot": 5,
+   "bar0": 11,
+   "bars": 1,
+   "t0": 22.0299,
+   "t1": 24.0304,
+   "energy": "groove",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 0.73",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "orange-lit traffic ↔ a hot bar, crossing the same way (zone 17 pair)",
+   "evidence": "subject motion -64 / -16 px/s (R→L both)",
+   "chi": "c-ic92-night",
+   "ctr": "a-servant-roll",
+   "chi_beat": "Traffic slides past the window",
+   "ctr_beat": "Hot bar in motion"
+  },
+  {
+   "shot": 6,
+   "bar0": 12,
+   "bars": 1,
+   "t0": 24.0304,
+   "t1": 26.0209,
+   "energy": "sparse",
+   "hits": [
+    "drums_out",
+    "fill_landing",
+    "section"
+   ],
+   "why": "drum stem -38→-46 dB; fill in previous bar: 3 late hits, late drum level +7.8 dB vs typical; novelty 0.77",
+   "rule": "MOLTEN_LIGHT",
+   "rule_name": "Sodium = molten",
+   "link": "sodium streaks through a wet windshield ↔ a ladle over the open furnace, sparks flying",
+   "evidence": "warm light source both (sodium/furnace), orange cast R-B 23 / 99",
+   "chi": "c-doha-sodium",
+   "ctr": "a-vicart-sparks",
+   "chi_beat": "The ride: sodium streaks",
+   "ctr_beat": "Ladle over the furnace"
+  },
+  {
+   "shot": 7,
+   "bar0": 13,
+   "bars": 2,
+   "t0": 26.0209,
+   "t1": 30.0118,
+   "energy": "sparse",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 0.75",
+   "rule": "STROKE",
+   "rule_name": "Mechanical stroke",
+   "link": "the wiper arm sweeps ↔ the drop-forge ram strikes",
+   "evidence": "locked-off camera both, strong repeating motion (flow p90 61 / 43)",
+   "chi": "t-rain-wipers",
+   "ctr": "a-hendrichs-drop",
+   "chi_beat": "Wipers",
+   "ctr_beat": "Drop forge"
+  },
+  {
+   "shot": 8,
+   "bar0": 15,
+   "bars": 1,
+   "t0": 30.0118,
+   "t1": 32.02,
+   "energy": "sparse",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 1.00",
+   "rule": "MOLTEN_LIGHT",
+   "rule_name": "Sodium = molten",
+   "link": "a sodium corner slides up ↔ iron pours from the tap: the same orange in the dark",
+   "evidence": "warm light source both (sodium/furnace), orange cast R-B 32 / 62",
+   "chi": "c-edison-corner",
+   "ctr": "a-irontap",
+   "chi_beat": "Sodium corner",
+   "ctr_beat": "Iron tap"
+  },
+  {
+   "shot": 9,
+   "bar0": 16,
+   "bars": 1,
+   "t0": 32.02,
+   "t1": 34.0077,
+   "energy": "break",
+   "hits": [
+    "break",
+    "section"
+   ],
+   "why": "mix -8.7 dB; novelty 0.52",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "feet through a puddle reflection ↔ a slab easing down the run-out (zone 17 pair)",
+   "evidence": "subject motion +25 / +9 px/s (L→R both)",
+   "chi": "t-rain-reflect",
+   "ctr": "a-acroni-runout",
+   "chi_beat": "Break: feet in the puddle",
+   "ctr_beat": "The run-out slows"
+  },
+  {
+   "shot": 10,
+   "bar0": 17,
+   "bars": 1,
+   "t0": 34.0077,
+   "t1": 35.9932,
+   "energy": "peak",
+   "hits": [
+    "drums_in",
+    "drop",
+    "section"
+   ],
+   "why": "drum stem -46→-38 dB; mix +15.4 dB; novelty 0.87",
+   "rule": "WINDOW_RIDE",
+   "rule_name": "Window ride",
+   "link": "Chicago industrial edge ↔ Indiana Harbor mills, both seen from a train window streaming the same way",
+   "evidence": "both tracking shots (move=track: track/track); subject motion -96 / -127 px/s (R→L both)",
+   "chi": "c-amtrak95",
+   "ctr": "a-inland-train",
+   "chi_beat": "Drop: train window, gray industrial edge",
+   "ctr_beat": "Mills past the train window"
+  },
+  {
+   "shot": 11,
+   "bar0": 18,
+   "bars": 1,
+   "t0": 35.9932,
+   "t1": 38.0086,
+   "energy": "peak",
+   "hits": [
+    "base"
+   ],
+   "why": "",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the L swings through the Loop ↔ hot strip races the stands, same direction",
+   "evidence": "subject motion +57 / +51 px/s (L→R both)",
+   "chi": "c-94-loop",
+   "ctr": "a-mills-fast",
+   "chi_beat": "The L through the Loop",
+   "ctr_beat": "Hot strip races the stands"
+  },
+  {
+   "shot": 12,
+   "bar0": 19,
+   "bars": 1,
+   "t0": 38.0086,
+   "t1": 40.0091,
+   "energy": "peak",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 0.82",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the subway train sweeps the platform ↔ the pan along stacked billets, same direction",
+   "evidence": "subject motion -126 / -82 px/s (R→L both)",
+   "chi": "c-harrison-arrive",
+   "ctr": "a-kover-pan",
+   "chi_beat": "Train into Harrison",
+   "ctr_beat": "Billets sweep past"
+  },
+  {
+   "shot": 13,
+   "bar0": 20,
+   "bars": 1,
+   "t0": 40.0091,
+   "t1": 42.0095,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "why": "novelty 0.44, mix +0.8 dB",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the Chicago skyline ↔ the East Chicago smokestack skyline, both sliding the same way under a steel-blue sky",
+   "evidence": "subject motion +29 / +28 px/s (L→R both)",
+   "chi": "c-94-skyline",
+   "ctr": "a-ecsteel-train",
+   "chi_beat": "Skyline across the lot",
+   "ctr_beat": "Mill stacks from the train"
+  },
+  {
+   "shot": 14,
+   "bar0": 21,
+   "bars": 1,
+   "t0": 42.0095,
+   "t1": 44.0349,
+   "energy": "peak",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "why": "fill in previous bar: 1 late hits, late drum level +11.3 dB vs typical; novelty 0.79",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "three-flats rush past the L ↔ the roller table rushes past: top speed, same direction",
+   "evidence": "subject motion -14 / -117 px/s (R→L both)",
+   "chi": "c-94-northside",
+   "ctr": "a-acroni-fast",
+   "chi_beat": "Back porches from the L",
+   "ctr_beat": "Roller table at speed"
+  },
+  {
+   "shot": 15,
+   "bar0": 22,
+   "bars": 1,
+   "t0": 44.0349,
+   "t1": 46.0154,
+   "energy": "peak",
+   "hits": [
+    "section"
+   ],
+   "why": "novelty 0.71",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the train sweeps into Cermak ↔ wire rod whips past, same direction",
+   "evidence": "subject motion -12 / -34 px/s (R→L both)",
+   "chi": "c-cermak-arrive",
+   "ctr": "a-drama-wire",
+   "chi_beat": "Train into Cermak",
+   "ctr_beat": "Wire rod whips past"
+  },
+  {
+   "shot": 16,
+   "bar0": 23,
+   "bars": 1,
+   "t0": 46.0154,
+   "t1": 48.0458,
+   "energy": "peak",
+   "hits": [
+    "base"
+   ],
+   "why": "",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "the freight slides past under sodium ↔ hot strip slides through the stands, same direction",
+   "evidence": "subject motion +8 / +76 px/s (L→R both)",
+   "chi": "c-ic92-freight",
+   "ctr": "a-kover-fast",
+   "chi_beat": "Freight under sodium",
+   "ctr_beat": "Strip through the stands"
+  },
+  {
+   "shot": 17,
+   "bar0": 24,
+   "bars": 1,
+   "t0": 48.0458,
+   "t1": 50.0413,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "why": "novelty 0.40, mix +0.4 dB",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "night street crowd drifts ↔ glowing stock drifts, same direction",
+   "evidence": "subject motion -7 / -13 px/s (R→L both)",
+   "chi": "c-impr-night-street",
+   "ctr": "a-mills-roll",
+   "chi_beat": "Night street",
+   "ctr_beat": "Glowing stock drifts"
+  },
+  {
+   "shot": 18,
+   "bar0": 25,
+   "bars": 1,
+   "t0": 50.0413,
+   "t1": 52.0467,
+   "energy": "peak",
+   "hits": [
+    "change"
+   ],
+   "why": "novelty 0.45, mix +1.1 dB",
+   "rule": "MOLTEN_LIGHT",
+   "rule_name": "Sodium = molten",
+   "link": "headlights flare in the dark ↔ sparks shower off the furnace",
+   "evidence": "warm light source both (headlights/furnace), orange cast R-B 23 / 70",
+   "chi": "c-impr-bus-lights",
+   "ctr": "a-vicart-sparks",
+   "chi_beat": "Headlights flare",
+   "ctr_beat": "Sparks"
+  },
+  {
+   "shot": 19,
+   "bar0": 26,
+   "bars": 1,
+   "t0": 52.0467,
+   "t1": 54.0472,
+   "energy": "peak",
+   "hits": [
+    "fill_landing",
+    "section"
+   ],
+   "why": "fill in previous bar: 1 late hits, late drum level +11.6 dB vs typical; novelty 0.88",
+   "rule": "SAME_WAY",
+   "rule_name": "Same way across the frame",
+   "link": "sodium side streets ↔ glowing billets on the line: the same orange, drifting the same way (zone 17 pair)",
+   "evidence": "subject motion +41 / +9 px/s (L→R both)",
+   "chi": "c-edison-sodium",
+   "ctr": "a-kover-billets",
+   "chi_beat": "Home: sodium side streets",
+   "ctr_beat": "Billets cool on the line"
+  },
+  {
+   "shot": 20,
+   "bar0": 27,
+   "bars": 1,
+   "t0": 54.0472,
+   "t1": 56.028,
+   "energy": "release",
+   "hits": [
+    "release",
+    "change"
+   ],
+   "why": "mix -21.7 dB; novelty 0.43, mix -21.7 dB",
+   "rule": "STILL_GLOW",
+   "rule_name": "Still glow",
+   "link": "the lit, empty shelter ↔ ingots cooling in the dark",
+   "evidence": "near-still (flow 0.4 / 1.5) and warm-lit (R-B 25 / 15)",
+   "chi": "c-impr-shelter",
+   "ctr": "a-servant-pour",
+   "chi_beat": "Release: the empty shelter (holds)",
+   "ctr_beat": "Ingots cool"
+  }
+ ],
+ "chi": [
+  {
+   "shot": 0,
+   "clip": "t-rain-window",
+   "src_in": 21.04,
+   "speed": 1.0,
+   "src_span": 2.155,
+   "stats": {
+    "flow": 0.1,
+    "flow90": 0.14,
+    "mdx": 0.0,
+    "mdy": 0.0,
+    "warm": 5.17,
+    "lum": 143.93,
+    "lum_floor": 143.23,
+    "lum_max": 144.42,
+    "clip_max": 0.0,
+    "flash": 0.41,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 1
+  },
+  {
+   "shot": 1,
+   "clip": "t-rain-puddles",
+   "src_in": 0.067,
+   "speed": 1.0,
+   "src_span": 8.117,
+   "stats": {
+    "flow": 6.21,
+    "flow90": 7.31,
+    "mdx": -1.52,
+    "mdy": 8.5,
+    "warm": 11.16,
+    "lum": 105.03,
+    "lum_floor": 103.81,
+    "lum_max": 115.7,
+    "clip_max": 0.02,
+    "flash": 2.07,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 3
+  },
+  {
+   "shot": 2,
+   "clip": "c-impr-bus-night",
+   "src_in": 2.502,
+   "speed": 1.0,
+   "src_span": 4.131,
+   "stats": {
+    "flow": 4.3,
+    "flow90": 14.57,
+    "mdx": 38.05,
+    "mdy": 0.0,
+    "warm": -4.38,
+    "lum": 24.37,
+    "lum_floor": 18.84,
+    "lum_max": 26.26,
+    "clip_max": 0.0,
+    "flash": 0.78,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 3
+  },
+  {
+   "shot": 3,
+   "clip": "c-impr-crossing",
+   "src_in": 0.584,
+   "speed": 1.0,
+   "src_span": 4.126,
+   "stats": {
+    "flow": 0.81,
+    "flow90": 7.98,
+    "mdx": 15.56,
+    "mdy": 0.56,
+    "warm": 10.87,
+    "lum": 28.75,
+    "lum_floor": 19.36,
+    "lum_max": 31.59,
+    "clip_max": 0.0,
+    "flash": 3.38,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 4,
+   "clip": "c-edison-storefronts",
+   "src_in": 18.418,
+   "speed": 1.0,
+   "src_span": 4.126,
+   "stats": {
+    "flow": 3.72,
+    "flow90": 11.55,
+    "mdx": -1.58,
+    "mdy": 3.39,
+    "warm": 38.85,
+    "lum": 81.47,
+    "lum_floor": 80.09,
+    "lum_max": 83.08,
+    "clip_max": 0.01,
+    "flash": 0.28,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 5,
+   "clip": "c-ic92-night",
+   "src_in": 10.611,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 7.37,
+    "flow90": 10.7,
+    "mdx": -64.42,
+    "mdy": -15.6,
+    "warm": 19.58,
+    "lum": 30.91,
+    "lum_floor": 25.72,
+    "lum_max": 34.88,
+    "clip_max": 0.0,
+    "flash": 2.84,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 6,
+   "clip": "c-doha-sodium",
+   "src_in": 2.133,
+   "speed": 1.0,
+   "src_span": 2.116,
+   "stats": {
+    "flow": 0.96,
+    "flow90": 44.74,
+    "mdx": -24.08,
+    "mdy": -24.09,
+    "warm": 22.68,
+    "lum": 39.28,
+    "lum_floor": 22.93,
+    "lum_max": 69.75,
+    "clip_max": 0.02,
+    "flash": 23.2,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 7,
+   "clip": "t-rain-wipers",
+   "src_in": 18.667,
+   "speed": 1.0,
+   "src_span": 4.116,
+   "stats": {
+    "flow": 16.93,
+    "flow90": 61.24,
+    "mdx": -2.06,
+    "mdy": -10.18,
+    "warm": 41.08,
+    "lum": 49.55,
+    "lum_floor": 14.98,
+    "lum_max": 66.07,
+    "clip_max": 0.02,
+    "flash": 13.16,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 3
+  },
+  {
+   "shot": 8,
+   "clip": "c-edison-corner",
+   "src_in": 0.067,
+   "speed": 1.0,
+   "src_span": 2.133,
+   "stats": {
+    "flow": 0.61,
+    "flow90": 1.31,
+    "mdx": 11.74,
+    "mdy": 2.24,
+    "warm": 31.8,
+    "lum": 60.98,
+    "lum_floor": 60.42,
+    "lum_max": 61.3,
+    "clip_max": 0.0,
+    "flash": 0.35,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 9,
+   "clip": "t-rain-reflect",
+   "src_in": 2.753,
+   "speed": 1.0,
+   "src_span": 2.113,
+   "stats": {
+    "flow": 0.21,
+    "flow90": 0.32,
+    "mdx": 24.8,
+    "mdy": -3.77,
+    "warm": -4.81,
+    "lum": 25.7,
+    "lum_floor": 24.28,
+    "lum_max": 27.68,
+    "clip_max": 0.0,
+    "flash": 1.1,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 1
+  },
+  {
+   "shot": 10,
+   "clip": "c-amtrak95",
+   "src_in": 8.677,
+   "speed": 1.0,
+   "src_span": 2.111,
+   "stats": {
+    "flow": 49.78,
+    "flow90": 56.05,
+    "mdx": -95.52,
+    "mdy": 2.1,
+    "warm": 4.58,
+    "lum": 88.6,
+    "lum_floor": 80.6,
+    "lum_max": 95.26,
+    "clip_max": 0.0,
+    "flash": 3.03,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 11,
+   "clip": "c-94-loop",
+   "src_in": 11.92,
+   "speed": 1.0,
+   "src_span": 2.14,
+   "stats": {
+    "flow": 58.9,
+    "flow90": 88.69,
+    "mdx": 57.23,
+    "mdy": -28.16,
+    "warm": 6.17,
+    "lum": 132.43,
+    "lum_floor": 111.64,
+    "lum_max": 147.52,
+    "clip_max": 0.24,
+    "flash": 11.96,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 12,
+   "clip": "c-harrison-arrive",
+   "src_in": 13.547,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 56.55,
+    "flow90": 73.37,
+    "mdx": -125.89,
+    "mdy": -6.1,
+    "warm": 9.93,
+    "lum": 110.83,
+    "lum_floor": 103.85,
+    "lum_max": 121.07,
+    "clip_max": 0.03,
+    "flash": 5.46,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 13,
+   "clip": "c-94-skyline",
+   "src_in": 28.32,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 29.39,
+    "flow90": 35.0,
+    "mdx": 29.04,
+    "mdy": 9.14,
+    "warm": -10.77,
+    "lum": 174.66,
+    "lum_floor": 167.41,
+    "lum_max": 179.7,
+    "clip_max": 0.36,
+    "flash": 3.55,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 14,
+   "clip": "c-94-northside",
+   "src_in": 13.68,
+   "speed": 1.0,
+   "src_span": 2.15,
+   "stats": {
+    "flow": 55.3,
+    "flow90": 75.05,
+    "mdx": -13.82,
+    "mdy": 24.95,
+    "warm": -2.17,
+    "lum": 139.33,
+    "lum_floor": 116.98,
+    "lum_max": 164.61,
+    "clip_max": 0.38,
+    "flash": 26.6,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 4
+  },
+  {
+   "shot": 15,
+   "clip": "c-cermak-arrive",
+   "src_in": 25.492,
+   "speed": 1.0,
+   "src_span": 2.105,
+   "stats": {
+    "flow": 9.57,
+    "flow90": 15.74,
+    "mdx": -11.69,
+    "mdy": -2.29,
+    "warm": -14.9,
+    "lum": 105.3,
+    "lum_floor": 100.42,
+    "lum_max": 107.58,
+    "clip_max": 0.0,
+    "flash": 0.78,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 16,
+   "clip": "c-ic92-freight",
+   "src_in": 38.972,
+   "speed": 1.0,
+   "src_span": 2.155,
+   "stats": {
+    "flow": 1.02,
+    "flow90": 2.01,
+    "mdx": 8.23,
+    "mdy": -0.98,
+    "warm": 6.61,
+    "lum": 20.17,
+    "lum_floor": 19.35,
+    "lum_max": 21.21,
+    "clip_max": 0.0,
+    "flash": 0.19,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 1
+  },
+  {
+   "shot": 17,
+   "clip": "c-impr-night-street",
+   "src_in": 6.757,
+   "speed": 1.0,
+   "src_span": 2.12,
+   "stats": {
+    "flow": 1.43,
+    "flow90": 1.82,
+    "mdx": -7.0,
+    "mdy": 0.21,
+    "warm": 6.74,
+    "lum": 29.26,
+    "lum_floor": 26.34,
+    "lum_max": 40.68,
+    "clip_max": 0.0,
+    "flash": 4.61,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 18,
+   "clip": "c-impr-bus-lights",
+   "src_in": 0.584,
+   "speed": 1.0,
+   "src_span": 2.13,
+   "stats": {
+    "flow": 0.39,
+    "flow90": 0.74,
+    "mdx": -7.79,
+    "mdy": -1.86,
+    "warm": 23.29,
+    "lum": 38.75,
+    "lum_floor": 37.43,
+    "lum_max": 39.35,
+    "clip_max": 0.0,
+    "flash": 0.35,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 2
+  },
+  {
+   "shot": 19,
+   "clip": "c-edison-sodium",
+   "src_in": 29.029,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 26.56,
+    "flow90": 55.18,
+    "mdx": 40.84,
+    "mdy": 2.09,
+    "warm": 25.77,
+    "lum": 55.58,
+    "lum_floor": 53.78,
+    "lum_max": 58.58,
+    "clip_max": 0.01,
+    "flash": 1.24,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 3
+  },
+  {
+   "shot": 20,
+   "clip": "c-impr-shelter",
+   "src_in": 0.334,
+   "speed": 1.0,
+   "src_span": 2.106,
+   "stats": {
+    "flow": 0.42,
+    "flow90": 0.63,
+    "mdx": -16.57,
+    "mdy": -0.42,
+    "warm": 24.7,
+    "lum": 47.59,
+    "lum_floor": 46.57,
+    "lum_max": 50.77,
+    "clip_max": 0.02,
+    "flash": 1.17,
+    "cut_inside": false
+   },
+   "world": "chicago",
+   "pace": 1,
+   "freeze": 2.106
+  }
+ ],
+ "ctr": [
+  {
+   "shot": 0,
+   "clip": "a-servant-ladle",
+   "src_in": 0.333,
+   "speed": 1.0,
+   "src_span": 2.155,
+   "stats": {
+    "flow": 2.25,
+    "flow90": 9.57,
+    "mdx": 0.0,
+    "mdy": 0.0,
+    "warm": 30.44,
+    "lum": 78.15,
+    "lum_floor": 64.49,
+    "lum_max": 132.86,
+    "clip_max": 0.04,
+    "flash": 33.31,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 1,
+   "clip": "a-kover-ladle",
+   "src_in": 6.8,
+   "speed": 1.0,
+   "src_span": 8.117,
+   "stats": {
+    "flow": 1.93,
+    "flow90": 2.76,
+    "mdx": 7.09,
+    "mdy": -4.55,
+    "warm": 19.36,
+    "lum": 59.77,
+    "lum_floor": 55.66,
+    "lum_max": 63.19,
+    "clip_max": 0.0,
+    "flash": 0.92,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 2
+  },
+  {
+   "shot": 2,
+   "clip": "a-acroni-rolls",
+   "src_in": 4.071,
+   "speed": 1.0,
+   "src_span": 4.131,
+   "stats": {
+    "flow": 26.68,
+    "flow90": 44.31,
+    "mdx": 12.2,
+    "mdy": 2.4,
+    "warm": -0.87,
+    "lum": 24.35,
+    "lum_floor": 21.08,
+    "lum_max": 31.48,
+    "clip_max": 0.0,
+    "flash": 1.13,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 3,
+   "clip": "a-servant-slab",
+   "src_in": 1.167,
+   "speed": 1.0,
+   "src_span": 4.126,
+   "stats": {
+    "flow": 10.41,
+    "flow90": 40.02,
+    "mdx": 26.26,
+    "mdy": 1.56,
+    "warm": 60.48,
+    "lum": 105.5,
+    "lum_floor": 86.65,
+    "lum_max": 120.34,
+    "clip_max": 0.0,
+    "flash": 2.88,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 4,
+   "clip": "a-servant-tap",
+   "src_in": 14.25,
+   "speed": 1.0,
+   "src_span": 4.126,
+   "stats": {
+    "flow": 5.39,
+    "flow90": 9.85,
+    "mdx": -3.18,
+    "mdy": -9.02,
+    "warm": 30.33,
+    "lum": 68.51,
+    "lum_floor": 64.44,
+    "lum_max": 79.22,
+    "clip_max": 0.0,
+    "flash": 2.31,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 5,
+   "clip": "a-servant-roll",
+   "src_in": 9.5,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 12.26,
+    "flow90": 45.2,
+    "mdx": -15.51,
+    "mdy": -1.97,
+    "warm": 51.03,
+    "lum": 86.81,
+    "lum_floor": 82.44,
+    "lum_max": 89.96,
+    "clip_max": 0.0,
+    "flash": 1.64,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 6,
+   "clip": "a-vicart-sparks",
+   "src_in": 5.84,
+   "speed": 1.0,
+   "src_span": 2.116,
+   "stats": {
+    "flow": 2.92,
+    "flow90": 4.43,
+    "mdx": -3.29,
+    "mdy": 1.12,
+    "warm": 98.67,
+    "lum": 68.36,
+    "lum_floor": 55.57,
+    "lum_max": 77.93,
+    "clip_max": 0.0,
+    "flash": 11.44,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 7,
+   "clip": "a-hendrichs-drop",
+   "src_in": 5.04,
+   "speed": 1.0,
+   "src_span": 4.116,
+   "stats": {
+    "flow": 27.31,
+    "flow90": 42.63,
+    "mdx": 20.29,
+    "mdy": 12.28,
+    "warm": 5.24,
+    "lum": 59.99,
+    "lum_floor": 57.14,
+    "lum_max": 61.9,
+    "clip_max": 0.0,
+    "flash": 0.77,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 8,
+   "clip": "a-irontap",
+   "src_in": 4.4,
+   "speed": 1.0,
+   "src_span": 2.133,
+   "stats": {
+    "flow": 4.48,
+    "flow90": 14.65,
+    "mdx": -18.79,
+    "mdy": 13.81,
+    "warm": 61.87,
+    "lum": 39.55,
+    "lum_floor": 27.14,
+    "lum_max": 59.27,
+    "clip_max": 0.04,
+    "flash": 8.38,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 9,
+   "clip": "a-acroni-runout",
+   "src_in": 3.604,
+   "speed": 1.0,
+   "src_span": 2.113,
+   "stats": {
+    "flow": 6.33,
+    "flow90": 11.74,
+    "mdx": 8.87,
+    "mdy": 1.87,
+    "warm": -1.94,
+    "lum": 37.92,
+    "lum_floor": 36.35,
+    "lum_max": 38.59,
+    "clip_max": 0.0,
+    "flash": 0.18,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 2
+  },
+  {
+   "shot": 10,
+   "clip": "a-inland-train",
+   "src_in": 3.203,
+   "speed": 1.0,
+   "src_span": 2.111,
+   "stats": {
+    "flow": 59.41,
+    "flow90": 71.5,
+    "mdx": -126.71,
+    "mdy": -1.16,
+    "warm": 74.3,
+    "lum": 161.46,
+    "lum_floor": 157.85,
+    "lum_max": 164.74,
+    "clip_max": 0.0,
+    "flash": 2.17,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 5
+  },
+  {
+   "shot": 11,
+   "clip": "a-mills-fast",
+   "src_in": 5.083,
+   "speed": 1.0,
+   "src_span": 2.14,
+   "stats": {
+    "flow": 46.95,
+    "flow90": 58.72,
+    "mdx": 50.52,
+    "mdy": -17.41,
+    "warm": 0.13,
+    "lum": 55.17,
+    "lum_floor": 46.68,
+    "lum_max": 67.41,
+    "clip_max": 0.0,
+    "flash": 6.06,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 12,
+   "clip": "a-kover-pan",
+   "src_in": 3.84,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 49.82,
+    "flow90": 70.59,
+    "mdx": -81.54,
+    "mdy": 2.67,
+    "warm": -30.45,
+    "lum": 124.1,
+    "lum_floor": 112.28,
+    "lum_max": 127.42,
+    "clip_max": 0.0,
+    "flash": 2.74,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 13,
+   "clip": "a-ecsteel-train",
+   "src_in": 7.808,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 26.5,
+    "flow90": 44.36,
+    "mdx": 28.32,
+    "mdy": -2.64,
+    "warm": -28.96,
+    "lum": 121.78,
+    "lum_floor": 118.45,
+    "lum_max": 126.58,
+    "clip_max": 0.0,
+    "flash": 0.74,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 14,
+   "clip": "a-acroni-fast",
+   "src_in": 2.202,
+   "speed": 1.0,
+   "src_span": 2.15,
+   "stats": {
+    "flow": 106.92,
+    "flow90": 113.32,
+    "mdx": -116.53,
+    "mdy": -5.51,
+    "warm": 1.92,
+    "lum": 41.94,
+    "lum_floor": 33.11,
+    "lum_max": 53.19,
+    "clip_max": 0.0,
+    "flash": 3.0,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 5
+  },
+  {
+   "shot": 15,
+   "clip": "a-drama-wire",
+   "src_in": 8.408,
+   "speed": 1.0,
+   "src_span": 2.105,
+   "stats": {
+    "flow": 29.65,
+    "flow90": 34.5,
+    "mdx": -34.08,
+    "mdy": -2.32,
+    "warm": 0.47,
+    "lum": 133.74,
+    "lum_floor": 128.75,
+    "lum_max": 139.94,
+    "clip_max": 0.0,
+    "flash": 7.73,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 16,
+   "clip": "a-kover-fast",
+   "src_in": 2.32,
+   "speed": 1.0,
+   "src_span": 2.155,
+   "stats": {
+    "flow": 28.43,
+    "flow90": 39.8,
+    "mdx": 76.17,
+    "mdy": -27.69,
+    "warm": -10.55,
+    "lum": 73.55,
+    "lum_floor": 48.65,
+    "lum_max": 121.49,
+    "clip_max": 0.07,
+    "flash": 7.1,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 4
+  },
+  {
+   "shot": 17,
+   "clip": "a-mills-roll",
+   "src_in": 6.917,
+   "speed": 1.0,
+   "src_span": 2.12,
+   "stats": {
+    "flow": 13.45,
+    "flow90": 17.63,
+    "mdx": -13.22,
+    "mdy": 12.11,
+    "warm": 0.09,
+    "lum": 66.44,
+    "lum_floor": 61.28,
+    "lum_max": 74.6,
+    "clip_max": 0.0,
+    "flash": 3.72,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 18,
+   "clip": "a-vicart-sparks",
+   "src_in": 1.04,
+   "speed": 1.0,
+   "src_span": 2.13,
+   "stats": {
+    "flow": 25.68,
+    "flow90": 39.13,
+    "mdx": 0.62,
+    "mdy": 13.43,
+    "warm": 69.68,
+    "lum": 46.24,
+    "lum_floor": 43.85,
+    "lum_max": 49.74,
+    "clip_max": 0.01,
+    "flash": 2.22,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 19,
+   "clip": "a-kover-billets",
+   "src_in": 12.8,
+   "speed": 1.0,
+   "src_span": 2.125,
+   "stats": {
+    "flow": 8.32,
+    "flow90": 9.98,
+    "mdx": 9.31,
+    "mdy": -0.14,
+    "warm": 16.51,
+    "lum": 26.69,
+    "lum_floor": 25.96,
+    "lum_max": 27.03,
+    "clip_max": 0.0,
+    "flash": 0.41,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 3
+  },
+  {
+   "shot": 20,
+   "clip": "a-servant-pour",
+   "src_in": 11.167,
+   "speed": 1.0,
+   "src_span": 2.106,
+   "stats": {
+    "flow": 1.5,
+    "flow90": 2.34,
+    "mdx": -2.92,
+    "mdy": -4.96,
+    "warm": 15.26,
+    "lum": 53.48,
+    "lum_floor": 52.04,
+    "lum_max": 55.21,
+    "clip_max": 0.0,
+    "flash": 1.28,
+    "cut_inside": false
+   },
+   "world": "counter-A",
+   "pace": 2
+  }
+ ]
+}
