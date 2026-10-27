@@ -13,13 +13,13 @@ A rainy night in 1993 at the **#49 Western** stop at **Lawrence & Western, Linco
 - 480p proxies: `assets/chicago-1993/proxies/<id>.mp4` (raw.githubusercontent URLs); posters `assets/chicago-1993/posters/`; contact sheets `footage/sheets/<id>.jpg` (box).
 - Catalog: `footage/catalog.csv` and `footage/catalog.json` (also copied to `boards/chicago-1993/` in the repo).
 
-**111 clips, 38.9 min** (v2, re-sourced Oct 27, 2026; v1 was 96 clips, 39.3 min, 61 of them REF).
+**115 clips, 39.4 min** (v2, re-sourced Oct 27, 2026; v1 was 96 clips, 39.3 min, 61 of them REF).
 
 | world | clips | min |
 |---|---|---|
 | chicago | 49 | 22.0 |
-| counter-A | 31 | 7.9 |
-| counter-B | 23 | 6.7 |
+| counter-A | 33 | 8.2 |
+| counter-B | 25 | 7.0 |
 | wildcard | 8 | 2.3 |
 
 ### Minutes per pace step
@@ -27,9 +27,9 @@ A rainy night in 1993 at the **#49 Western** stop at **Lawrence & Western, Linco
 | world | P1 | P2 | P3 | P4 | P5 |
 |---|---|---|---|---|---|
 | chicago | 5.3 (11) | 6.4 (14) | 5.4 (14) | 4.1 (7) | 0.9 (3) |
-| counter (all) | 3.4 (11) | 4.5 (17) | 4.3 (16) | 3.8 (14) | 0.9 (4) |
-| counter-A | 0.0 (0) | 2.8 (10) | 2.7 (10) | 1.8 (8) | 0.7 (3) |
-| counter-B | 2.6 (8) | 1.5 (5) | 1.6 (6) | 0.8 (3) | 0.2 (1) |
+| counter (all) | 3.4 (11) | 4.5 (17) | 4.3 (16) | 4.4 (18) | 0.9 (4) |
+| counter-A | 0.0 (0) | 2.8 (10) | 2.7 (10) | 2.1 (10) | 0.7 (3) |
+| counter-B | 2.6 (8) | 1.5 (5) | 1.6 (6) | 1.1 (5) | 0.2 (1) |
 | wildcard | 0.8 (3) | 0.3 (2) | 0.0 (0) | 1.2 (3) | 0.0 (0) |
 
 Cells are minutes (clip count).
@@ -38,7 +38,7 @@ Cells are minutes (clip count).
 
 | source_api | clips | min |
 |---|---|---|
-| Wikimedia Commons API (imageinfo/extmetadata) | 83 | 30.4 |
+| Wikimedia Commons API (imageinfo/extmetadata) | 87 | 31.0 |
 | archive.org metadata API | 26 | 8.0 |
 | NASA Images API (images-api.nasa.gov) | 2 | 0.5 |
 
@@ -74,11 +74,14 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 
 ## Rights
 - Stills: 75, all from Wikimedia Commons (PD or CC BY / BY-SA). Attribution is on each caption and in `images/stills.json`.
-- Clips (v2): {'PD': 43, 'CC0': 2, 'CC-BY': 55, 'CC-BY-SA': 11}. **No REF clips remain.** Every clip came through an API (archive.org, Wikimedia Commons, NASA Images) and is PD or CC. The 61 v1 REF proxies and posters (YouTube uploads, station broadcasts, Kinolibrary previews) were removed from the public repo; they still exist in older git history.
+- Clips (v2): {'PD': 46, 'CC0': 2, 'CC-BY': 56, 'CC-BY-SA': 11}. **No REF clips remain.** Every clip came through an API (archive.org, Wikimedia Commons, NASA Images) and is PD or CC. The 61 v1 REF proxies and posters (YouTube uploads, station broadcasts, Kinolibrary previews) were removed from the public repo; they still exist in older git history.
 - CC BY / BY-SA clips need the attribution in their caption. BY-SA (11 clips) means any derivative edit has to be shared alike.
 - NASA material is a U.S. government work, but the NASA insignia and endorsement rules still apply.
 - Copyrighted films (Thief, Hoop Dreams, The Fugitive, Night on Earth, Chungking Express) and 1993 music are link-only REF cards (stills zones), not footage.
 - Rain plates are stand-ins (some are not Chicago or not 1993). Several stills are modern photos of 1993-era locations.
+
+## Sample edit v2
+`edits/sample_30s_v2.mp4` and `edits/sample_30s_v2_contact.jpg` are on the box. The shot list with rights is in `edits/sample_30s_v2_shotlist.md`. It uses the same edit logic as v1 and only cleared sources; the edit as a whole is CC BY-SA 4.0.
 
 ## v2 re-sourcing (Oct 27, 2026)
 - **Priority used:** archive.org metadata API → Wikimedia Commons API (imageinfo/extmetadata; `filetype:video` search) → NASA Images API. `source_api` is set on every clip.
@@ -243,8 +246,10 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 | a-kover-billets | counter-A | 14 | 15 | sodium-orange | L→R | 3 (13.65) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 14:20) |
 | a-kover-fast | counter-A | 14 | 9 | wet-black | L→R | 4 (23.53) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 4:25) |
 | a-kover-ladle | counter-A | 14 | 15 | sodium-orange | down | 2 (3.15) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 12:11) |
+| a-kover-pan | counter-A | 14 | 8 | steel-blue | R→L | 4 (24.21) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 16:27) |
 | a-mills-fast | counter-A | 14 | 11 | wet-black | L→R | 4 (24.4) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Men_and_Mills,_c._1950.webm (at 31:44) |
 | a-mills-roll | counter-A | 14 | 11 | wet-black | L→R | 3 (11.14) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Men_and_Mills,_c._1950.webm (at 25:52) |
+| a-mills-skip | counter-A | 14 | 8 | wet-black | down | 4 (24.52) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Men_and_Mills,_c._1950.webm (at 8:09) |
 | a-servant-furnace | counter-A | 14 | 20 | sodium-orange | still | 3 (12.87) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=596 |
 | a-servant-ladle | counter-A | 14 | 20 | sodium-orange | down | 3 (9.07) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=868 |
 | a-servant-pour | counter-A | 14 | 25 | sodium-orange | down | 2 (3.18) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=952 |
@@ -260,6 +265,8 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 | b-blue-flowers | counter-B | 15 | 20 | steel-blue | up | 1 (0.69) | CC0 | archive.org metadata API | https://archive.org/details/TimelapseOfOpeningFlowersOnBlueScreen?start=0 |
 | b-cloudcomp | counter-B | 15 | 12 | mono-gray | L→R | 5 (28.99) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 0:00) |
 | b-cloudcomp2 | counter-B | 15 | 12 | wet-black | up | 4 (24.72) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 2:36) |
+| b-cloudcomp3 | counter-B | 15 | 8 | mono-gray | L→R | 4 (23.54) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 3:01) |
+| b-cloudcomp4 | counter-B | 15 | 8 | mono-gray | L→R | 4 (23.65) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 4:20) |
 | b-clouds | counter-B | 15 | 20 | green | up | 1 (0.53) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Cloud_evolution_in_under_a_minute.ogv (at 0:00) |
 | b-echinopsis | counter-B | 15 | 20 | red-neon | toward | 1 (0.56) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Antares_Hybrid_Echinopsis_Flower_Opening_Time_Lapse_..._Six_Flowers_at_Once.webm (at 0:00) |
 | b-funnel | counter-B | 15 | 12 | white-glare | down | 4 (19.77) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Funnel_Cloud_over_city_of_Ljubljana_Slovenia_23.7.2011.webm (at 0:13) |
