@@ -6,31 +6,41 @@
 A rainy night in 1993 at the **#49 Western** stop at **Lawrence & Western, Lincoln Square**, on Chicago's North Side. It's a working, middle-class city neighborhood: two- and three-flats, a corner tavern, a Walgreens, and the Brown Line (Ravenswood) at Western nearby. It's not a suburb and not a rough block. The bus is a CTA Flxible Metro. Rain on sodium light, wet asphalt, fluorescent shop glow, and the radio forecast saying "rain developing."
 
 ## Zones
-01 The corner · 02 Light, dusk to sodium · 03 Rain · 04 The bus · 05 The people · 06 The neighborhood · 07 The L · 08 Camera · 09 Color strip · 10 Type & signage · 11 Sound · 12 Voice · 13 1993 timeline · 14 Counter-world A, steel · 15 Counter-world B, time-lapse and seasons · 16 Wildcards · 17 Match-cut pairs · 18 Footage index · 19 Pace ramp. Legend at the top left.
+01 The corner · 02 Light, dusk to sodium · 03 Rain · 04 The bus · 05 The people · 06 The neighborhood · 07 The L · 08 Camera · 09 Color strip · 10 Type & signage · 11 Sound · 12 Voice · 13 1993 timeline · 14 Counter-world A, steel · 15 Counter-world B, time-lapse and seasons · 16 Wildcards · 17 Match-cut pairs · 18 Footage index · 19 Pace ramp · 20 Licensable archives (Media Burn, AAPB, CFA; link cards only). Legend at the top left.
 
 ## Footage library
 - Masters (H.264, source resolution): `/workspace/moodboard/chicago-1993/footage/<id>.mp4` on the box only, **not in git**.
 - 480p proxies: `assets/chicago-1993/proxies/<id>.mp4` (raw.githubusercontent URLs); posters `assets/chicago-1993/posters/`; contact sheets `footage/sheets/<id>.jpg` (box).
 - Catalog: `footage/catalog.csv` and `footage/catalog.json` (also copied to `boards/chicago-1993/` in the repo).
 
-**96 clips, 39.3 min.**
+**111 clips, 38.9 min** (v2, re-sourced Oct 27, 2026; v1 was 96 clips, 39.3 min, 61 of them REF).
 
 | world | clips | min |
 |---|---|---|
-| chicago | 45 | 23.8 |
-| counter-A | 23 | 6.6 |
-| counter-B | 20 | 6.6 |
+| chicago | 49 | 22.0 |
+| counter-A | 31 | 7.9 |
+| counter-B | 23 | 6.7 |
 | wildcard | 8 | 2.3 |
 
 ### Minutes per pace step
 
 | world | P1 | P2 | P3 | P4 | P5 |
 |---|---|---|---|---|---|
-| chicago | 2.6 | 3.9 | 4.8 | 7.9 | 4.6 |
-| counter (all) | 4.3 | 4.4 | 3.4 | 2.7 | 0.8 |
-| counter-A | 0.5 | 1.8 | 2.5 | 1.1 | 0.8 |
-| counter-B | 3.0 | 2.3 | 1.0 | 0.4 | 0.0 |
-| wildcard | 0.8 | 0.3 | 0.0 | 1.2 | 0.0 |
+| chicago | 5.3 (11) | 6.4 (14) | 5.4 (14) | 4.1 (7) | 0.9 (3) |
+| counter (all) | 3.4 (11) | 4.5 (17) | 4.3 (16) | 3.8 (14) | 0.9 (4) |
+| counter-A | 0.0 (0) | 2.8 (10) | 2.7 (10) | 1.8 (8) | 0.7 (3) |
+| counter-B | 2.6 (8) | 1.5 (5) | 1.6 (6) | 0.8 (3) | 0.2 (1) |
+| wildcard | 0.8 (3) | 0.3 (2) | 0.0 (0) | 1.2 (3) | 0.0 (0) |
+
+Cells are minutes (clip count).
+
+### Minutes by source API
+
+| source_api | clips | min |
+|---|---|---|
+| Wikimedia Commons API (imageinfo/extmetadata) | 83 | 30.4 |
+| archive.org metadata API | 26 | 8.0 |
+| NASA Images API (images-api.nasa.gov) | 2 | 0.5 |
 
 ## Tag vocabulary
 
@@ -46,7 +56,8 @@ A rainy night in 1993 at the **#49 Western** stop at **Lawrence & Western, Linco
 | light | sodium · fluorescent · neon · headlights · daylight-overcast · daylight-sun · furnace · studio | manual |
 | texture | rain · sparks · steam · grain · VHS | manual |
 | source / source_date / original | archive item, year, link to the original at the in-point timestamp | |
-| rights / license | PD · CC0 · CC-BY · REF | REF = reference only, not cleared |
+| rights / license | PD · CC0 · CC-BY · CC-BY-SA | v2 has no REF clips. CC-BY/BY-SA need attribution (on each caption); BY-SA derivatives must be shared alike |
+| source_api | archive.org metadata API · Wikimedia Commons API · NASA Images API | the API each clip was found and fetched through |
 
 ## Pace calibration
 `pace_raw = 0.6 × flow_p50 + 0.4 × flow_p90`. Farneback dense optical flow, in px/s on frames downscaled to 160 px wide at 6 fps. Cuts are detected (framediff spikes) and excluded from the flow statistics.
@@ -54,8 +65,8 @@ Thresholds: **1** <3 near-static · **2** 3–9 slow · **3** 9–17 medium · *
 I calibrated by eye at the extremes and the boundaries. Locked-off time-lapse and still plates fall at 0–3. Bus pass-bys and lateral cab rides fall at 17–30. Night-drive streaks and the hot-strip mill run-out reach 25+. Raw values are in the catalog, so the steps can be re-cut.
 
 ## Match-cut pairs (zone 17)
-Pairs share at least 3 of: color, direction, pace (±1), size, angle, move. Each pair was then checked for a visual or sound rhyme. The one-line notes are on the board.
-t-rain-lens↔a-servant-slab · t-rain-puddle-ecu↔a-servant-pour · c-flx-pass↔a-drama-wire · c-cab-rav-canopy↔a-hsm-overhead · c-flx-arrive↔a-servant-furnace · t-rain-neon↔a-ssy-sparks · c-skyline-lights-on↔w-biolum-swarm · c-wbbm-accuweather↔b-pond-green · t-rain-feet↔a-hsm-rolls · t-rain-wet-street↔b-muldrow · c-wls-traffic↔w-biolum-chain · c-vhs-drive-streaks↔a-hsm-mill2
+Pairs share at least 3 of: color, direction, pace (±1), size, angle, move. Each pair was then checked for a visual or sound rhyme. The one-line notes are on the board. Rebuilt in v2 from cleared clips only.
+c-impr-bus-night↔a-acroni-rolls · t-rain-puddles↔a-kover-ladle · c-doha-sodium↔b-lemaire · c-edison-sodium↔a-kover-billets · c-amtrak95↔a-inland-train2 · c-94-skyline↔b-cloudcomp · c-edison-grid↔w-biolum-swarm · t-rain-reflect↔a-acroni-runout · c-impr-crossing↔a-servant-slab · c-ic92-night↔a-servant-roll · c-rain93-nasa↔b-pond-rain · c-94-loop↔b-iss-earth
 
 ## Board build
 The skeleton push was the only full push. Everything after it was pull-then-targeted patches (`board/p*.json`). The footage index (18) and pace ramp (19) use poster images that click through to the proxy, to keep the number of video players down. Zones 01–08, 10, 12–17 use playable video shapes.
@@ -63,9 +74,23 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 
 ## Rights
 - Stills: 75, all from Wikimedia Commons (PD or CC BY / BY-SA). Attribution is on each caption and in `images/stills.json`.
-- Clips: Counter({'REF': 61, 'PD': 28, 'CC-BY': 6, 'CC0': 1}). REF items (YouTube uploads, station broadcasts, Kinolibrary previews) are **reference only, not cleared**. Their 480p proxies are in a public repo; take them down or make the repo private before sharing widely.
-- Copyrighted films (Thief, Hoop Dreams, The Fugitive, Night on Earth, Chungking Express) and 1993 music are link-only REF cards.
+- Clips (v2): {'PD': 43, 'CC0': 2, 'CC-BY': 55, 'CC-BY-SA': 11}. **No REF clips remain.** Every clip came through an API (archive.org, Wikimedia Commons, NASA Images) and is PD or CC. The 61 v1 REF proxies and posters (YouTube uploads, station broadcasts, Kinolibrary previews) were removed from the public repo; they still exist in older git history.
+- CC BY / BY-SA clips need the attribution in their caption. BY-SA (11 clips) means any derivative edit has to be shared alike.
+- NASA material is a U.S. government work, but the NASA insignia and endorsement rules still apply.
+- Copyrighted films (Thief, Hoop Dreams, The Fugitive, Night on Earth, Chungking Express) and 1993 music are link-only REF cards (stills zones), not footage.
 - Rain plates are stand-ins (some are not Chicago or not 1993). Several stills are modern photos of 1993-era locations.
+
+## v2 re-sourcing (Oct 27, 2026)
+- **Priority used:** archive.org metadata API → Wikimedia Commons API (imageinfo/extmetadata; `filetype:video` search) → NASA Images API. `source_api` is set on every clip.
+- **Not used (need a key, not signed up):** NARA Catalog API v2 (x-api-key), Pexels and Pixabay video APIs. The LoC JSON API had no usable 1990s Chicago street video. NOAA/USGS clips came via Commons.
+- **Tradeoffs:**
+  - There's no PD/CC Flxible-era CTA bus footage. The bus zone uses 2010s CTA buses at night (Impressions of Chicago, CC BY) as a stand-in. Period-true bus tape is in zone 20 (Media Burn, licensable).
+  - Period feel comes from CC camcorder material from 1988–95: 1992 Metra/IC, 1993 IC, the 1994 L rides, Pilsen 1988, and Amtrak 1995.
+  - Counter-world pace 4–5 was filled from Acroni, Koverhar, Inland/East Chicago train windows, Hendrichs, Men and Mills, and a cloud time-lapse. Windows were checked frame by frame to rule out scene cuts and animated diagrams.
+- **Licensable archives (zone 20, excluded from minutes):**
+  - **Media Burn:** 8 tapes as link cards (mediaburn.org page plus the Vimeo player URL); license via info@mediaburn.org. The embeds wouldn't play in headless Chrome (Vimeo bot wall), so this is not proof of a domain restriction. Nothing was downloaded from Vimeo.
+  - **AAPB:** stream-only reference records.
+  - **Chicago Film Archives:** McBrien/WTTW "Skyline: Chicago" outtakes from 1991–93. They're digitized but not online; license through CFA.
 
 ## Stills
 
@@ -149,101 +174,116 @@ Hosting: proxies play from raw.githubusercontent.com (verified in headless Chrom
 
 ## Clips
 
-| id | world | zone | s | color | dir | pace (raw) | rights | original |
-|---|---|---|---|---|---|---|---|---|
-| c-skyline-lake-night | chicago | 02 | 44 | wet-black | still | 1 (1.37) | REF | https://www.youtube.com/watch?v=65-CBHHz1aE&t=0s |
-| c-marina-bluehour | chicago | 02 | 30 | steel-blue | still | 2 (3.19) | REF | https://www.youtube.com/watch?v=6KGXEKXPp5k&t=0s |
-| c-marina-night | chicago | 02 | 35 | wet-black | still | 1 (2.52) | REF | https://www.youtube.com/watch?v=6KGXEKXPp5k&t=150s |
-| c-skyline-sunset | chicago | 02 | 40 | sodium-orange | still | 1 (0.23) | REF | https://www.youtube.com/watch?v=gqmYzZf0ONo&t=0s |
-| c-skyline-lights-on | chicago | 02 | 32 | steel-blue | still | 1 (0.28) | REF | https://www.youtube.com/watch?v=gqmYzZf0ONo&t=284s |
-| c-vhs-drive-sodium | chicago | 02 | 58 | sodium-orange | toward | 5 (29.25) | REF | https://www.youtube.com/watch?v=BUZQW2v2meM&t=0s |
-| c-vhs-drive-streaks | chicago | 08 | 30 | sodium-orange | toward | 4 (23.84) | REF | https://www.youtube.com/watch?v=BUZQW2v2meM&t=88s |
-| c-vhs-skyline-drive | chicago | 06 | 32 | mono-gray | L→R | 5 (26.09) | REF | https://www.youtube.com/watch?v=BUZQW2v2meM&t=128s |
-| c-vhs-storefronts | chicago | 05 | 24 | sodium-orange | still | 5 (31.55) | REF | https://www.youtube.com/watch?v=BUZQW2v2meM&t=212s |
-| c-night-drive-98 | chicago | 02 | 11 | sodium-orange | toward | 4 (18.16) | REF | https://www.youtube.com/watch?v=6RZ1jcNaEb8&t=0s |
-| c-cab-lake-title | chicago | 08 | 12 | wet-black | still | 2 (8.08) | REF | https://www.youtube.com/watch?v=Nty8Y8GzAAM&t=0s |
-| c-cab-lake-oncoming | chicago | 06 | 40 | mono-gray | toward | 4 (19.63) | REF | https://www.youtube.com/watch?v=Nty8Y8GzAAM&t=1058s |
-| c-cab-lake-loop | chicago | 06 | 60 | mono-gray | toward | 4 (17.49) | REF | https://www.youtube.com/watch?v=Nty8Y8GzAAM&t=1500s |
-| c-cab-rav-loop | chicago | 06 | 50 | mono-gray | toward | 3 (13.58) | REF | https://www.youtube.com/watch?v=rZ7PSQYUI80&t=0s |
-| c-cab-rav-pass | chicago | 06 | 50 | cyan-fluorescent | toward | 4 (21.88) | REF | https://www.youtube.com/watch?v=rZ7PSQYUI80&t=810s |
-| c-cab-rav-north | chicago | 01 | 60 | cyan-fluorescent | toward | 3 (12.78) | REF | https://www.youtube.com/watch?v=rZ7PSQYUI80&t=1260s |
-| c-cab-rav-backs | chicago | 06 | 57 | mono-gray | toward | 4 (19.4) | REF | https://www.youtube.com/watch?v=H2SF-uG4UYI&t=76s |
-| c-cab-rav-canopy | chicago | 05 | 43 | wet-black | toward | 3 (12.28) | REF | https://www.youtube.com/watch?v=H2SF-uG4UYI&t=247s |
-| c-trains-arrive-93 | chicago | 08 | 32 | mono-gray | toward | 4 (23.0) | REF | https://www.youtube.com/watch?v=eqTpnx8kXFU&t=298s |
-| c-trains-platform-93 | chicago | 08 | 26 | mono-gray | R→L | 4 (18.88) | REF | https://www.youtube.com/watch?v=eqTpnx8kXFU&t=358s |
-| c-logan-flats | chicago | 06 | 28 | sodium-orange | still | 5 (30.25) | REF | https://www.youtube.com/watch?v=Q05UetheZEg&t=120s |
-| c-logan-graystones | chicago | 06 | 30 | mono-gray | L→R | 5 (27.55) | REF | https://www.youtube.com/watch?v=Q05UetheZEg&t=170s |
-| c-lincoln-blockparty | chicago | 07 | 30 | mono-gray | still | 4 (24.44) | REF | https://www.youtube.com/watch?v=x2ZonMufpTQ&t=60s |
-| c-wild-night-taxi | chicago | 07 | 12 | sodium-orange | L→R | 5 (26.72) | REF | https://www.youtube.com/watch?v=HXYSzMTXUTA&t=10s |
-| c-flx-interior | chicago | 04 | 31 | mono-gray | toward | 5 (44.75) | REF | https://www.youtube.com/watch?v=itgzLEipyNU&t=9s |
-| c-flx-arrive | chicago | 04 | 30 | mono-gray | toward | 3 (11.69) | REF | https://www.youtube.com/watch?v=aokh0S7BoM8&t=0s |
-| c-flx-pass | chicago | 04 | 14 | mono-gray | R→L | 4 (21.03) | REF | https://www.youtube.com/watch?v=hHWzn6GjHTM&t=6s |
-| c-flx-garage | chicago | 04 | 16 | steel-blue | L→R | 3 (15.88) | REF | https://www.youtube.com/watch?v=-1LMRwcLZCg&t=0s |
-| c-bulls96-bokeh | chicago | 02 | 13 | red-neon | L→R | 5 (31.21) | REF | https://www.youtube.com/watch?v=Ix0o9KKXD90&t=21s |
-| c-bulls96-drive | chicago | 02 | 18 | red-neon | toward | 5 (25.24) | REF | https://www.youtube.com/watch?v=Ix0o9KKXD90&t=42s |
-| c-bulls96-crowd | chicago | 07 | 32 | red-neon | still | 5 (27.85) | REF | https://www.youtube.com/watch?v=Ix0o9KKXD90&t=180s |
-| c-bulls92-division | chicago | 13 | 26 | red-neon | R→L | 3 (14.97) | REF | https://www.youtube.com/watch?v=frHHXtgmYpk&t=0s |
-| c-wbbm-fire-night | chicago | 12 | 25 | mono-gray | up | 3 (9.2) | REF | https://archive.org/details/wbbm-tv-530pm-news-december-12-1993?start=780 |
-| c-wbbm-woolworth | chicago | 13 | 25 | mono-gray | still | 2 (5.22) | REF | https://archive.org/details/wbbm-tv-530pm-news-december-12-1993?start=912 |
-| c-wbbm-accuweather | chicago | 10 | 72 | green | still | 2 (7.31) | REF | https://archive.org/details/wbbm-tv-530pm-news-december-12-1993?start=1060 |
-| c-wbbm-bulls | chicago | 13 | 44 | mono-gray | L→R | 4 (20.73) | REF | https://archive.org/details/wbbm-tv-530pm-news-december-12-1993?start=1536 |
-| c-wbbm-jewel | chicago | 05 | 22 | steel-blue | still | 3 (10.18) | REF | https://archive.org/details/wbbm-tv-530pm-news-december-12-1993?start=540 |
-| c-wls-traffic | chicago | 10 | 18 | steel-blue | still | 2 (7.44) | REF | https://archive.org/details/wls-tv-4pm-news-may-18-1993?start=672 |
-| c-wls-skyline-night | chicago | 02 | 16 | sodium-orange | still | 2 (6.78) | REF | https://archive.org/details/wls-tv-4pm-news-may-18-1993?start=2120 |
-| t-rain-puddle-ecu | chicago | 03 | 6 | sodium-orange | down | 1 (1.4) | REF | https://www.youtube.com/watch?v=zDpGdDFh8Hs&t=0s |
-| t-rain-feet | chicago | 03 | 16 | wet-black | L→R | 3 (13.82) | REF | https://www.youtube.com/watch?v=zDpGdDFh8Hs&t=164s |
-| t-rain-pavement-night | chicago | 03 | 36 | wet-black | away | 4 (19.62) | REF | https://www.youtube.com/watch?v=ypYHOJ2QkXY&t=0s |
-| t-rain-neon | chicago | 03 | 60 | red-neon | still | 2 (5.33) | REF | https://www.youtube.com/watch?v=ypYHOJ2QkXY&t=90s |
-| t-rain-wet-street | chicago | 03 | 20 | mono-gray | L→R | 4 (23.36) | REF | https://www.youtube.com/watch?v=mnQiLtBx-OY&t=130s |
-| t-rain-lens | chicago | 03 | 23 | sodium-orange | L→R | 4 (23.37) | REF | https://www.youtube.com/watch?v=mnQiLtBx-OY&t=385s |
-| a-ssy-glare | counter-A | 14 | 20 | wet-black | still | 3 (9.96) | PD | https://archive.org/details/SteelASy1936?start=270 |
-| a-ssy-sparks | counter-A | 14 | 15 | wet-black | down | 2 (8.71) | PD | https://archive.org/details/SteelASy1936?start=390 |
-| a-ssy-pour | counter-A | 14 | 20 | wet-black | down | 2 (6.43) | PD | https://archive.org/details/SteelASy1936?start=700 |
-| a-hsm-steam | counter-A | 14 | 20 | wet-black | up | 3 (12.33) | REF | https://archive.org/details/fc-fc-4518?start=153 |
-| a-hsm-rolls | counter-A | 14 | 20 | wet-black | L→R | 3 (9.31) | REF | https://archive.org/details/fc-fc-4518?start=450 |
-| a-hsm-runout | counter-A | 14 | 20 | wet-black | R→L | 5 (27.71) | REF | https://archive.org/details/fc-fc-4518?start=540 |
-| a-drama-pour | counter-A | 14 | 20 | mono-gray | down | 2 (7.31) | PD | https://archive.org/details/gov.archives.arc.12505?start=500 |
-| a-drama-sparks | counter-A | 14 | 15 | mono-gray | down | 2 (4.46) | PD | https://archive.org/details/gov.archives.arc.12505?start=1140 |
-| a-servant-furnace | counter-A | 14 | 20 | sodium-orange | still | 3 (12.87) | PD | https://archive.org/details/steel-man-s-servant-1938?start=596 |
-| a-servant-tap | counter-A | 14 | 20 | sodium-orange | down | 3 (9.69) | PD | https://archive.org/details/steel-man-s-servant-1938?start=720 |
-| a-servant-ladle | counter-A | 14 | 20 | sodium-orange | down | 3 (9.07) | PD | https://archive.org/details/steel-man-s-servant-1938?start=868 |
-| a-servant-pour | counter-A | 14 | 25 | sodium-orange | down | 2 (3.18) | PD | https://archive.org/details/steel-man-s-servant-1938?start=952 |
-| a-servant-slab | counter-A | 14 | 25 | sodium-orange | L→R | 4 (20.66) | PD | https://archive.org/details/steel-man-s-servant-1938?start=1090 |
-| a-servant-roll | counter-A | 14 | 15 | sodium-orange | R→L | 3 (10.31) | PD | https://archive.org/details/steel-man-s-servant-1938?start=1230 |
-| a-modern-slab | counter-A | 14 | 14 | cyan-fluorescent | still | 1 (1.13) | REF | https://archive.org/details/oamodern-steel-making?start=322 |
-| a-modern-pour | counter-A | 14 | 15 | sodium-orange | down | 2 (4.84) | REF | https://archive.org/details/oamodern-steel-making?start=462 |
-| a-modern-ingot | counter-A | 14 | 15 | red-neon | still | 1 (1.57) | REF | https://archive.org/details/oamodern-steel-making?start=686 |
-| b-growth-bloom | counter-B | 15 | 20 | mono-gray | up | 2 (5.31) | REF | https://archive.org/details/200634_The_Growth_of_Plants?start=18 |
-| b-growth-tendril | counter-B | 15 | 20 | mono-gray | up | 2 (7.99) | REF | https://archive.org/details/200634_The_Growth_of_Plants?start=90 |
-| b-growth-flower | counter-B | 15 | 20 | mono-gray | up | 2 (3.85) | REF | https://archive.org/details/200634_The_Growth_of_Plants?start=180 |
-| b-trees-buds | counter-B | 15 | 20 | green | up | 2 (3.68) | REF | https://archive.org/details/4083_Seasonal_Changes_In_Trees?start=104 |
-| b-trees-leaves | counter-B | 15 | 20 | green | up | 1 (2.37) | REF | https://archive.org/details/4083_Seasonal_Changes_In_Trees?start=290 |
-| b-trees-winter | counter-B | 15 | 20 | green | still | 1 (1.26) | REF | https://archive.org/details/4083_Seasonal_Changes_In_Trees?start=530 |
-| b-bean-germ | counter-B | 15 | 25 | mono-gray | up | 1 (2.64) | PD | https://archive.org/details/6109_Growing_Things_A_Film_Lesson_in_Nature_Study_01_00_43_01?start=215 |
-| b-pond-water | counter-B | 15 | 22 | wet-black | still | 2 (6.34) | PD | https://archive.org/details/SpringCo1952?start=40 |
-| b-pond-rain | counter-B | 15 | 22 | sodium-orange | still | 3 (16.32) | PD | https://archive.org/details/SpringCo1952?start=250 |
-| b-pond-green | counter-B | 15 | 20 | green | still | 3 (15.97) | PD | https://archive.org/details/SpringCo1952?start=500 |
-| b-plantgrowth | counter-B | 15 | 25 | wet-black | up | 1 (1.17) | PD | https://archive.org/details/PlantGrowth?start=0 |
-| b-blue-flowers | counter-B | 15 | 20 | steel-blue | up | 1 (0.69) | CC0 | https://archive.org/details/TimelapseOfOpeningFlowersOnBlueScreen?start=0 |
-| b-rose-open | counter-B | 15 | 15 | green | toward | 2 (4.35) | CC-BY | https://commons.wikimedia.org/wiki/File:Time-lapse_of_a_flower_blooming.webm (at 0:00) |
-| b-rose-black | counter-B | 15 | 8 | green | toward | 1 (1.58) | CC-BY | https://commons.wikimedia.org/wiki/File:Time-lapse_of_opening_red_rose_isolated_on_black_background.Blooming_red_roses_flower_buds.webm (at 0:00) |
-| b-gardenia | counter-B | 15 | 20 | green | toward | 1 (0.65) | CC-BY | https://commons.wikimedia.org/wiki/File:Time_lapse_of_a_gardenia_flower_opening.webm (at 0:00) |
-| b-echinopsis | counter-B | 15 | 20 | red-neon | toward | 1 (0.56) | CC-BY | https://commons.wikimedia.org/wiki/File:Antares_Hybrid_Echinopsis_Flower_Opening_Time_Lapse_..._Six_Flowers_at_Once.webm (at 0:00) |
-| b-clouds | counter-B | 15 | 20 | green | up | 1 (0.53) | PD | https://commons.wikimedia.org/wiki/File:Cloud_evolution_in_under_a_minute.ogv (at 0:00) |
-| b-muldrow | counter-B | 15 | 26 | mono-gray | L→R | 4 (19.51) | PD | https://archive.org/details/nps-video-dena-muldrow-surge-time-lapse-may-8-to-july-1-2021?start=0 |
-| b-hurricane | counter-B | 15 | 20 | wet-black | R→L | 2 (4.7) | PD | https://commons.wikimedia.org/wiki/File:Hurricane-Matthew_4k-Time_Lapse.webm (at 0:00) |
-| w-biolum-blue | wildcard | 16 | 6 | wet-black | still | 2 (3.82) | PD | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=6 |
-| w-biolum-swarm | wildcard | 16 | 14 | steel-blue | still | 1 (1.75) | PD | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=462 |
-| w-biolum-chain | wildcard | 16 | 12 | steel-blue | still | 1 (1.91) | PD | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=336 |
-| w-shrimp-spew | wildcard | 16 | 11 | wet-black | L→R | 2 (3.6) | PD | https://archive.org/details/noaa-oe-video-explorations-19biolum-logs-jun16-media-shrimp-spew?start=0 |
-| w-squid | wildcard | 16 | 22 | wet-black | still | 1 (1.35) | PD | https://archive.org/details/noaa-oe-video-edu-themes-bioluminescence-media-multimedia-giant-squid?start=0 |
-| w-press-vanuatu | wildcard | 16 | 28 | sodium-orange | L→R | 4 (17.36) | CC-BY | https://commons.wikimedia.org/wiki/File:Printing_the_Paper.webm (at 0:12) |
-| w-press-lvrj | wildcard | 16 | 16 | wet-black | up | 4 (18.99) | CC-BY | https://commons.wikimedia.org/wiki/File:The_910_ton_printing_presses_at_the_Las_Vegas_Review-Journal_were_the_largest_in_the_world_when_installed_in_2000.webm (at 0:00) |
-| w-press-1937 | wildcard | 16 | 26 | wet-black | down | 4 (22.25) | PD | https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv (at 1:18) |
-| a-hsm-track | counter-A | 14 | 12 | wet-black | R→L | 5 (28.05) | REF | https://archive.org/details/fc-fc-4518?start=340 |
-| a-hsm-overhead | counter-A | 14 | 12 | wet-black | toward | 4 (23.36) | REF | https://archive.org/details/fc-fc-4518?start=364 |
-| a-drama-wire | counter-A | 14 | 12 | mono-gray | R→L | 4 (23.4) | PD | https://archive.org/details/gov.archives.arc.12505?start=1550 |
-| a-drama-tilt | counter-A | 14 | 12 | mono-gray | down | 3 (11.48) | PD | https://archive.org/details/gov.archives.arc.12505?start=851 |
-| a-hsm-pan | counter-A | 14 | 15 | wet-black | R→L | 5 (38.26) | REF | https://archive.org/details/fc-fc-4518?start=56 |
-| a-hsm-mill2 | counter-A | 14 | 15 | wet-black | toward | 4 (22.79) | REF | https://archive.org/details/fc-fc-4518?start=386 |
-| b-winter-train | counter-B | 15 | 15 | mono-gray | L→R | 3 (11.74) | PD | https://archive.org/details/gov.archives.arc.12505?start=681 |
+| id | world | zone | s | color | dir | pace (raw) | rights | source_api | original |
+|---|---|---|---|---|---|---|---|---|---|
+| c-edison-corner | chicago | 01 | 38 | sodium-orange | toward | 2 (6.6) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Flying_Around_Edison_Park_Chicago_3am.webm (at 1:02) |
+| c-chilights-river | chicago | 02 | 35 | sodium-orange | still | 1 (0.38) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Lights_-_City_Timelapse.webm (at 0:00) |
+| c-daynight | chicago | 02 | 34 | wet-black | still | 1 (1.76) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Day_and_Night.webm (at 0:00) |
+| c-doha-sodium | chicago | 02 | 34 | sodium-orange | toward | 4 (22.52) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Driving_under_rain_-_Doha,_Qatar.webm (at 1:11) |
+| c-edison-grid | chicago | 02 | 40 | sodium-orange | toward | 1 (0.76) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Flying_Around_Edison_Park_Chicago_3am.webm (at 5:50) |
+| c-edison-sodium | chicago | 02 | 32 | sodium-orange | L→R | 3 (9.24) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Flying_Around_Edison_Park_Chicago_3am.webm (at 4:48) |
+| c-ic92-freight | chicago | 02 | 44 | wet-black | L→R | 1 (2.48) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Illinois_Central_Action_1992!.webm (at 10:56) |
+| c-ic92-night | chicago | 02 | 36 | wet-black | R→L | 2 (5.98) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Illinois_Central_Action_1992!.webm (at 4:36) |
+| c-impr-night-street | chicago | 02 | 17 | wet-black | L→R | 2 (5.53) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 3:37) |
+| c-metra92-dusk | chicago | 02 | 30 | wet-black | toward | 2 (8.91) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Metra_Action_1992!.webm (at 4:15) |
+| c-nightview | chicago | 02 | 19 | wet-black | still | 1 (0.17) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Night_view_of_Chicago.webm (at 0:00) |
+| c-snow-sodium | chicago | 02 | 30 | sodium-orange | still | 3 (13.92) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Snowpocalypse_%27011_Part_2.webm (at 5:45) |
+| t-rain-pouring | chicago | 03 | 30 | mono-gray | down | 3 (11.47) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Pouring_down_in_Wikimania_2017.webm (at 0:00) |
+| t-rain-puddles | chicago | 03 | 13 | mono-gray | down | 3 (9.14) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Puddles_of_rain.webm (at 0:00) |
+| t-rain-reflect | chicago | 03 | 16 | wet-black | L→R | 1 (1.72) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 4:24) |
+| t-rain-storm-chi | chicago | 03 | 31 | mono-gray | still | 2 (3.14) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Bradhoc_-_Chicago_storm_7-12.ogv (at 0:00) |
+| t-rain-street | chicago | 03 | 20 | mono-gray | down | 2 (5.68) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Heavy_rain_in_Boulevard_Rosemont,_Montreal.webm (at 0:00) |
+| t-rain-wet-rails | chicago | 03 | 40 | wet-black | still | 2 (7.74) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:More_Illinois_Central_Action_1993!.webm (at 3:45) |
+| t-rain-window | chicago | 03 | 40 | mono-gray | down | 1 (1.32) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Radevormwald_-_Raindrops_on_a_window_07_(1)_ies.webm (at 0:00) |
+| t-rain-wipers | chicago | 03 | 23 | sodium-orange | toward | 3 (15.7) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Driving_under_rain_-_Doha,_Qatar.webm (at 1:47) |
+| c-gcm-bus-rain | chicago | 04 | 8 | mono-gray | L→R | 3 (14.93) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Atmospheric_River_at_Grand_Central_Market_-_February_2024_-_Sarah_Stierch.webm (at 0:00) |
+| c-impr-bus-lights | chicago | 04 | 7 | sodium-orange | toward | 2 (3.73) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 4:12) |
+| c-impr-bus-night | chicago | 04 | 8 | wet-black | R→L | 3 (9.91) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 4:05) |
+| c-snow-plow | chicago | 04 | 25 | sodium-orange | toward | 4 (24.34) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Snowpocalypse_%27011_Part_2.webm (at 4:50) |
+| c-gramaphone | chicago | 05 | 23 | wet-black | L→R | 5 (34.87) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Gramaphone_Records_on_Clark_Street,_Chicago._August_2003.webm (at 1:22) |
+| c-impr-shelter | chicago | 05 | 5 | sodium-orange | still | 1 (2.25) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 4:19) |
+| c-scenes74-signs | chicago | 05 | 39 | wet-black | still | 3 (10.72) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Scenes_(ca._1974).webm (at 4:26) |
+| c-southloop88-tower | chicago | 05 | 17 | red-neon | still | 5 (28.04) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:South_Loop_including_Dearborn_Station_Circa_April_1988.webm (at 0:48) |
+| c-18th-rooftops | chicago | 06 | 24 | red-neon | L→R | 3 (15.66) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:18th_Street_Station_Circa_April_1988_(Silent).webm (at 0:18) |
+| c-94-loop | chicago | 06 | 42 | mono-gray | toward | 4 (21.08) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_1994.webm (at 0:38) |
+| c-94-northside | chicago | 06 | 45 | mono-gray | toward | 4 (23.05) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_1994.webm (at 4:20) |
+| c-94-skyline | chicago | 06 | 40 | steel-blue | L→R | 4 (18.62) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_1994.webm (at 3:00) |
+| c-amtrak95 | chicago | 06 | 37 | mono-gray | R→L | 4 (23.26) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Amtrak_into_Chicago_Jan_1995.webm (at 0:28) |
+| c-edison-storefronts | chicago | 06 | 39 | sodium-orange | L→R | 2 (3.39) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Flying_Around_Edison_Park_Chicago_3am.webm (at 6:41) |
+| c-scenes74-streets | chicago | 06 | 44 | wet-black | L→R | 2 (8.91) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Scenes_(ca._1974).webm (at 0:16) |
+| c-18th-platform | chicago | 07 | 15 | red-neon | still | 5 (27.47) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:18th_Street_Station_Circa_April_1988_(Silent).webm (at 1:05) |
+| c-impr-crossing | chicago | 07 | 6 | sodium-orange | L→R | 2 (7.55) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 3:59) |
+| c-impr-people | chicago | 07 | 21 | wet-black | L→R | 2 (3.02) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Impressions.webm (at 0:14) |
+| c-scenes74-crowd | chicago | 07 | 31 | sodium-orange | L→R | 3 (16.68) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Scenes_(ca._1974).webm (at 6:39) |
+| c-94-title | chicago | 08 | 12 | green | still | 3 (12.87) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_1994.webm (at 0:00) |
+| c-cermak-arrive | chicago | 08 | 28 | mono-gray | toward | 2 (7.56) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Cermak_Green_Line_Station-Night_March_2015.webm (at 1:07) |
+| c-harrison-arrive | chicago | 08 | 20 | mono-gray | toward | 4 (17.19) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:CTA_Harrison.ogv (at 1:10) |
+| c-metra92-chyron | chicago | 08 | 20 | wet-black | still | 1 (0.51) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Metra_Action_1992!.webm (at 0:00) |
+| c-cermak-signs | chicago | 10 | 25 | mono-gray | still | 3 (9.58) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Cermak_Green_Line_Station-Night_March_2015.webm (at 0:30) |
+| c-harrison-sign | chicago | 10 | 24 | mono-gray | still | 2 (8.24) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:CTA_Harrison.ogv (at 0:34) |
+| c-snow-people | chicago | 12 | 29 | sodium-orange | still | 3 (14.84) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Chicago_Snowpocalypse_%27011_Part_2.webm (at 10:16) |
+| c-classic-ic93 | chicago | 13 | 25 | steel-blue | still | 1 (1.11) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Classic_Illinois_Central_in_Illinois_1993.webm (at 9:20) |
+| c-ic93-datestamp | chicago | 13 | 20 | steel-blue | still | 3 (11.58) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:More_Illinois_Central_Action_1993!.webm (at 0:00) |
+| c-rain93-nasa | chicago | 13 | 40 | wet-black | still | 1 (1.22) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:1993_US_Rain.ogv (at 0:00) |
+| a-acroni-fast | counter-A | 14 | 10 | wet-black | L→R | 5 (26.52) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Proizvodnja_vro%C4%8De_valjane_debele_plo%C4%8Devine_v_Acroni_SIJ_Jesenice.ogv (at 0:40) |
+| a-acroni-rolls | counter-A | 14 | 16 | wet-black | R→L | 4 (23.27) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Proizvodnja_vro%C4%8De_valjane_debele_plo%C4%8Devine_v_Acroni_SIJ_Jesenice.ogv (at 5:30) |
+| a-acroni-runout | counter-A | 14 | 16 | wet-black | L→R | 2 (5.79) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Proizvodnja_vro%C4%8De_valjane_debele_plo%C4%8Devine_v_Acroni_SIJ_Jesenice.ogv (at 2:50) |
+| a-artemis-cam | counter-A | 14 | 12 | sodium-orange | down | 2 (8.79) | PD | NASA Images API (images-api.nasa.gov) | https://images.nasa.gov/details/Artemis I - Rocket Camera Footage (at 0:02) |
+| a-drama-pour | counter-A | 14 | 20 | mono-gray | down | 2 (7.31) | PD | archive.org metadata API | https://archive.org/details/gov.archives.arc.12505?start=500 |
+| a-drama-sparks | counter-A | 14 | 15 | mono-gray | down | 2 (4.46) | PD | archive.org metadata API | https://archive.org/details/gov.archives.arc.12505?start=1140 |
+| a-drama-tilt | counter-A | 14 | 12 | mono-gray | down | 3 (11.48) | PD | archive.org metadata API | https://archive.org/details/gov.archives.arc.12505?start=851 |
+| a-drama-wire | counter-A | 14 | 12 | mono-gray | R→L | 4 (23.4) | PD | archive.org metadata API | https://archive.org/details/gov.archives.arc.12505?start=1550 |
+| a-ecsteel-train | counter-A | 14 | 10 | steel-blue | R→L | 4 (18.04) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Steel_Mills_East_Chicago_%26_Indiana_Harbor.webm (at 0:38) |
+| a-forge-hammer | counter-A | 14 | 12 | wet-black | down | 2 (5.19) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Hammerverst%C3%A4hlung.webm (at 11:26) |
+| a-fsb-plume | counter-A | 14 | 15 | sodium-orange | still | 2 (4.95) | PD | NASA Images API (images-api.nasa.gov) | https://images.nasa.gov/details/MSFC_XP01_V_0133_FSB1_BROLL (at 0:30) |
+| a-hendrichs-drop | counter-A | 14 | 12 | mono-gray | down | 4 (23.38) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Gesenkschmiede_Hendrichs.webm (at 7:39) |
+| a-inland-train | counter-A | 14 | 18 | sodium-orange | R→L | 5 (26.01) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Inland_Steel_(ArcelorMittal)_as_seen_from_train.webm (at 0:22) |
+| a-inland-train2 | counter-A | 14 | 13 | sodium-orange | R→L | 5 (29.97) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Inland_Steel_(ArcelorMittal)_as_seen_from_train.webm (at 1:54) |
+| a-irontap | counter-A | 14 | 14 | red-neon | down | 4 (18.08) | CC-BY-SA | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_%D1%87%D1%83%D0%B3%D1%83%D0%BD%D0%B0_%D0%B8%D0%B7_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%BF%D0%B5%D1%87%D0%B8.webm (at 0:04) |
+| a-kover-billets | counter-A | 14 | 15 | sodium-orange | L→R | 3 (13.65) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 14:20) |
+| a-kover-fast | counter-A | 14 | 9 | wet-black | L→R | 4 (23.53) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 4:25) |
+| a-kover-ladle | counter-A | 14 | 15 | sodium-orange | down | 2 (3.15) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:HISTORIAA_%E2%80%A2_OVAKON_Koverharin_ter%C3%A4stehdas_1982_-_ter%C3%A4ksen_valmistus.webm (at 12:11) |
+| a-mills-fast | counter-A | 14 | 11 | wet-black | L→R | 4 (24.4) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Men_and_Mills,_c._1950.webm (at 31:44) |
+| a-mills-roll | counter-A | 14 | 11 | wet-black | L→R | 3 (11.14) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Men_and_Mills,_c._1950.webm (at 25:52) |
+| a-servant-furnace | counter-A | 14 | 20 | sodium-orange | still | 3 (12.87) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=596 |
+| a-servant-ladle | counter-A | 14 | 20 | sodium-orange | down | 3 (9.07) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=868 |
+| a-servant-pour | counter-A | 14 | 25 | sodium-orange | down | 2 (3.18) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=952 |
+| a-servant-roll | counter-A | 14 | 15 | sodium-orange | R→L | 3 (10.31) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=1230 |
+| a-servant-slab | counter-A | 14 | 25 | sodium-orange | L→R | 4 (20.66) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=1090 |
+| a-servant-tap | counter-A | 14 | 20 | sodium-orange | down | 3 (9.69) | PD | archive.org metadata API | https://archive.org/details/steel-man-s-servant-1938?start=720 |
+| a-ssy-glare | counter-A | 14 | 20 | wet-black | still | 3 (9.96) | PD | archive.org metadata API | https://archive.org/details/SteelASy1936?start=270 |
+| a-ssy-pour | counter-A | 14 | 20 | wet-black | down | 2 (6.43) | PD | archive.org metadata API | https://archive.org/details/SteelASy1936?start=700 |
+| a-ssy-sparks | counter-A | 14 | 15 | wet-black | down | 2 (8.71) | PD | archive.org metadata API | https://archive.org/details/SteelASy1936?start=390 |
+| a-vicart-sparks | counter-A | 14 | 14 | sodium-orange | down | 3 (13.38) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Vicart_-_Aci%C3%A9rie.webm (at 0:10) |
+| a-westinghouse-1904 | counter-A | 14 | 12 | mono-gray | down | 3 (9.58) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Casting_a_Guide_Box_-_Westinghouse_Works.webm (at 2:00) |
+| b-bean-germ | counter-B | 15 | 25 | mono-gray | up | 1 (2.64) | PD | archive.org metadata API | https://archive.org/details/6109_Growing_Things_A_Film_Lesson_in_Nature_Study_01_00_43_01?start=215 |
+| b-blue-flowers | counter-B | 15 | 20 | steel-blue | up | 1 (0.69) | CC0 | archive.org metadata API | https://archive.org/details/TimelapseOfOpeningFlowersOnBlueScreen?start=0 |
+| b-cloudcomp | counter-B | 15 | 12 | mono-gray | L→R | 5 (28.99) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 0:00) |
+| b-cloudcomp2 | counter-B | 15 | 12 | wet-black | up | 4 (24.72) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_Clouds_Compilation.ogv (at 2:36) |
+| b-clouds | counter-B | 15 | 20 | green | up | 1 (0.53) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Cloud_evolution_in_under_a_minute.ogv (at 0:00) |
+| b-echinopsis | counter-B | 15 | 20 | red-neon | toward | 1 (0.56) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Antares_Hybrid_Echinopsis_Flower_Opening_Time_Lapse_..._Six_Flowers_at_Once.webm (at 0:00) |
+| b-funnel | counter-B | 15 | 12 | white-glare | down | 4 (19.77) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Funnel_Cloud_over_city_of_Ljubljana_Slovenia_23.7.2011.webm (at 0:13) |
+| b-gardenia | counter-B | 15 | 20 | green | toward | 1 (0.65) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time_lapse_of_a_gardenia_flower_opening.webm (at 0:00) |
+| b-hurricane | counter-B | 15 | 20 | wet-black | R→L | 2 (4.7) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Hurricane-Matthew_4k-Time_Lapse.webm (at 0:00) |
+| b-iss-earth | counter-B | 15 | 12 | wet-black | toward | 3 (14.98) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Earth_Illuminated-_ISS_Time-lapse_Photography.webm (at 0:26) |
+| b-iss-night | counter-B | 15 | 15 | wet-black | toward | 2 (4.12) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:ISS073-E-1249495-1253256-20251112-Night_-_2025-11-12_ISS073_3762_Night.webm (at 0:00) |
+| b-lemaire | counter-B | 15 | 12 | steel-blue | toward | 3 (10.36) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time-lapse_of_navigation_through_Lemaire_Channel,_Antarctica.webm (at 1:22) |
+| b-muldrow | counter-B | 15 | 26 | mono-gray | L→R | 4 (19.51) | PD | archive.org metadata API | https://archive.org/details/nps-video-dena-muldrow-surge-time-lapse-may-8-to-july-1-2021?start=0 |
+| b-plantgrowth | counter-B | 15 | 25 | wet-black | up | 1 (1.17) | PD | archive.org metadata API | https://archive.org/details/PlantGrowth?start=0 |
+| b-pond-green | counter-B | 15 | 20 | green | still | 3 (15.97) | PD | archive.org metadata API | https://archive.org/details/SpringCo1952?start=500 |
+| b-pond-rain | counter-B | 15 | 22 | sodium-orange | still | 3 (16.32) | PD | archive.org metadata API | https://archive.org/details/SpringCo1952?start=250 |
+| b-pond-water | counter-B | 15 | 22 | wet-black | still | 2 (6.34) | PD | archive.org metadata API | https://archive.org/details/SpringCo1952?start=40 |
+| b-rose-black | counter-B | 15 | 8 | green | toward | 1 (1.58) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time-lapse_of_opening_red_rose_isolated_on_black_background.Blooming_red_roses_flower_buds.webm (at 0:00) |
+| b-rose-open | counter-B | 15 | 15 | green | toward | 2 (4.35) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time-lapse_of_a_flower_blooming.webm (at 0:00) |
+| b-sthelens | counter-B | 15 | 18 | steel-blue | up | 2 (4.76) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time-lapse_images_of_Mount_St._Helens_dome_growth_2004-2008.webm (at 0:10) |
+| b-winter-train | counter-B | 15 | 15 | mono-gray | L→R | 3 (11.74) | PD | archive.org metadata API | https://archive.org/details/gov.archives.arc.12505?start=681 |
+| b-winters-end | counter-B | 15 | 15 | steel-blue | still | 3 (12.41) | CC0 | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Timelapse_of_Winter%27s_End_at_Bertram_Creek_Park_overlooking_Okanagan_Lake,_includes_Snowmelt,_Sunset_and_Venus_Set.webm (at 0:05) |
+| b-yaki-storm | counter-B | 15 | 15 | steel-blue | L→R | 1 (1.31) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Time-lapse_Video-_Winter_Storm_at_Yaki_Point_Grand_Canyon_2014-01-31_(12242435983).webm (at 0:05) |
+| w-biolum-blue | wildcard | 16 | 6 | wet-black | still | 2 (3.82) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=6 |
+| w-biolum-chain | wildcard | 16 | 12 | steel-blue | still | 1 (1.91) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=336 |
+| w-biolum-swarm | wildcard | 16 | 14 | steel-blue | still | 1 (1.75) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-edu-resources-dsd-bioluminescence?start=462 |
+| w-press-1937 | wildcard | 16 | 26 | wet-black | down | 4 (22.25) | PD | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Tidningstryck_1937.ogv (at 1:18) |
+| w-press-lvrj | wildcard | 16 | 16 | wet-black | up | 4 (18.99) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:The_910_ton_printing_presses_at_the_Las_Vegas_Review-Journal_were_the_largest_in_the_world_when_installed_in_2000.webm (at 0:00) |
+| w-press-vanuatu | wildcard | 16 | 28 | sodium-orange | L→R | 4 (17.36) | CC-BY | Wikimedia Commons API (imageinfo/extmetadata) | https://commons.wikimedia.org/wiki/File:Printing_the_Paper.webm (at 0:12) |
+| w-shrimp-spew | wildcard | 16 | 11 | wet-black | L→R | 2 (3.6) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-explorations-19biolum-logs-jun16-media-shrimp-spew?start=0 |
+| w-squid | wildcard | 16 | 22 | wet-black | still | 1 (1.35) | PD | archive.org metadata API | https://archive.org/details/noaa-oe-video-edu-themes-bioluminescence-media-multimedia-giant-squid?start=0 |
