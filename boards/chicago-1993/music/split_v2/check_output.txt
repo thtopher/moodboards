@@ -1,0 +1,21 @@
+PASS 14 cuts per panel, identical frames on both panels, all on bar downbeats: [251, 380, 507, 632, 757, 819, 882, 946, 1011, 1073, 1137, 1201, 1265, 1330]
+PASS bar  1 FALL_INTO      t-rain-puddles ↔ a-kover-ladle: both tagged falling (down), both slow (flow 6.3 / 2.0)
+PASS bar  5 SAME_WAY       c-impr-bus-night ↔ a-acroni-rolls: subject motion +32 / +17 px/s (L→R both)
+PASS bar  7 SAME_WAY       c-impr-crossing ↔ a-servant-slab: subject motion +16 / +25 px/s (L→R both)
+PASS bar  9 MOLTEN_LIGHT   c-edison-storefronts ↔ a-servant-tap: warm light source both (sodium/furnace), orange cast R-B 38 / 30
+PASS bar 11 SAME_WAY       c-ic92-night ↔ a-servant-roll: subject motion -43 / -8 px/s (R→L both)
+PASS bar 13 SAME_WAY       t-rain-reflect ↔ a-acroni-runout: subject motion +19 / +9 px/s (L→R both)
+PASS bar 14 MOLTEN_LIGHT   c-doha-sodium ↔ a-vicart-sparks: warm light source both (sodium/furnace), orange cast R-B 47 / 69
+PASS bar 15 STROKE         t-rain-wipers ↔ a-hendrichs-drop: locked-off camera both, strong repeating motion (flow p90 53 / 44)
+PASS bar 16 WINDOW_RIDE    c-amtrak95 ↔ a-inland-train: both tracking shots (move=track: track/track); subject motion -94 / -127 px/s (R→L both)
+PASS bar 17 SAME_WAY       c-94-loop ↔ a-mills-fast: subject motion +100 / +51 px/s (L→R both)
+PASS bar 18 SAME_WAY       c-harrison-arrive ↔ a-kover-pan: subject motion -121 / -81 px/s (R→L both)
+PASS bar 19 SAME_WAY       c-94-skyline ↔ a-ecsteel-train: subject motion +27 / +30 px/s (L→R both)
+PASS bar 20 SAME_WAY       c-94-northside ↔ a-acroni-fast: subject motion -27 / -109 px/s (R→L both)
+PASS bar 21 SAME_WAY       c-edison-sodium ↔ a-kover-billets: subject motion +30 / +9 px/s (L→R both)
+PASS bar 22 STILL_GLOW     c-impr-shelter ↔ a-servant-pour: near-still (flow 0.4 / 1.0) and warm-lit (R-B 24 / 10)
+PASS render left (Chicago): visible cut at all 14 declared frames
+PASS render left (Chicago): luma min 10, max 185 (gates 8/215)
+PASS render right (counter-world): visible cut at all 14 declared frames
+PASS render right (counter-world): luma min 26, max 175 (gates 8/215)
+RESULT: PASS (0 fail, 0 warn)
