@@ -1,0 +1,70 @@
+a-cep386 | sky | visual: contact frames: pink golden-hour light on the cloud tops
+a-usda-sunwater | sky | tag: light tagged sunset
+a-cep431 | sky | tag: light tagged sunset
+a-cep427 | sky | tag: subject tagged sunset
+a-cep-redsky | sky | tag: light tagged sunrise
+a-masada | sky | tag: subject tagged sunset
+a-arches | sky | tag: light tagged sunset
+a-jt-sunset | sky | tag: light tagged sunset
+a-mcdonald | sky | tag: subject tagged sunset
+b-gold-dendrite | sheen | visual: contact frames: a frame-filling orange disc on black (reads as a sun disc); sheen-side catch from the orange-disc sweep
+a-63n~0 | sky | tag: subject tagged sunset
+a-bresson-eve~0 | sky | tag: light tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-00 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-02 | sky | tag: keyword 'Sunrise' in title/source
+s2-ia-0611-vista-stock-shots-sunri-04 | sky | tag: keyword 'Sunrise' in title/source
+s2-ia-0611-vista-stock-shots-sunri-05 | sky | tag: keyword 'Sunrise' in title/source
+s2-ia-0611-vista-stock-shots-sunri-06 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-07 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-08 | sky | tag: keyword 'Sunrise' in title/source
+s2-ia-0611-vista-stock-shots-sunri-09 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-10 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-12 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-13 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-14 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-15 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunri-16 | sky | tag: keyword 'Sunrise' in title/source
+s2-ia-0611-vista-stock-shots-sunri-17 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunse-00 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunse-01 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunse-02 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunse-03 | sky | tag: subject tagged sunset
+s2-ia-0611-vista-stock-shots-sunse-04 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-00 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-01 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-02 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-03 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-04 | sky | tag: keyword 'Dusk' in title/source
+s2-ia-0617-vista-stock-shots-san-f-05 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-06 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-07 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-08 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-09 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-10 | sky | tag: subject tagged sunset
+s2-ia-0617-vista-stock-shots-san-f-11 | sky | tag: subject tagged sunset
+s2-ia-american1958-00 | sky | tag: subject tagged sunset
+s2-wc-2012-07-29-21-56-24-timelapse-00 | sky | visual: contact frames: evening mackerel sky with a warm peach glow at the horizon (21:56)
+s2-wc-2020-04-01-timelapse-sunset-be-00 | sky | tag: keyword 'sunset' in title/source
+s2-wc-artemis-ii-sls-ksc-artemis-ii-01 | sky | tag: keyword 'sunset' in title/source
+s2-wc-mount-fuji-at-sunset-timelapse-00 | sky | tag: subject tagged sunset
+s2-wc-sunset-at-naked-creek-overlook-00 | sky | tag: subject tagged sunset
+s2-wc-sunset-timelapse-in-funchal-20-00 | sky | tag: subject tagged sunset
+s2-wc-sunset-timelapse-lake-huron-lo-00 | sky | tag: subject tagged sunset
+s2-wc-sunset-timelapse-on-the-beach-00 | sky | tag: subject tagged sunset
+s2-wc-sunset-tokyoarea-timelapse-201-00 | sky | tag: subject tagged sunset
+s2-wc-timelapse-d-un-couch-de-soleil-00 | sky | tag: subject tagged sunset
+s2-wc-timelapse-of-sunset-in-norway-00 | sky | tag: subject tagged sunset
+a-tl-pink | sky | tag: light tagged sunset
+a-63n | sky | tag: subject tagged sunset
+a-bresson-eve | sky | tag: light tagged sunset
+a-bresson-night | sky | tag: subject tagged sunset
+a-shen-sunrise | sky | tag: subject tagged sunset
+a-winchester | sky | tag: keyword 'sunset' in title/source
+a-hsf87-flare | sky | tag: keyword 'sunrise' in title/source
+a-hsf104-sunrise | sky | tag: keyword 'sunrise' in title/source
+a-shuttle-bokeh | sky | tag: keyword 'dawn' in title/source
+a-shuttle-sunrise | sky | tag: light tagged sunrise
+a-iss-sunburst | sky | visual: contact frames: the sun bursting over the Earth's limb (an orbital sunrise)
+a-aurora-pd | sky | visual: contact frames: orange glow filling the sky behind power lines
+a-goes-idalia | sky | tag: light tagged sunrise
+a-sdo-blast | sky | visual: contact frames: a red-orange sun disc filling the frame (reads as a setting sun)
